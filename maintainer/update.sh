@@ -15,7 +15,7 @@ update="Update"
 figlet $repository
 cd ..
 echo "Set Remote $team..."
-git remote set-url origin git@github.com:xentaos/$repository.git
+git remote set-url origin git@github.com:xentaoslinux/$repository.git
 echo "Berhasil..."
 echo "Pull Request Github..."
 git pull

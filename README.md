@@ -1,9 +1,10 @@
 # Pemaketan
 |**Team**|**Mission**|**Progress**|
 |:---:|:---:|:---:|
-|![Team](https://raw.githubusercontent.com/xentaos/xenta-x-icons/master/build/Xenta-X/apps/96/config-users.png)<br>Kunjungi halaman Xenta OS - Developer [Team](http://dev.xentaos.org/team.html)|![Mission](https://raw.githubusercontent.com/xentaos/xenta-x-icons/master/build/Xenta-X/apps/96/cs-details.png)<br>Kunjungi halaman Xenta OS - Developer [Mission](http://dev.xentaos.org/mission.html)|![Progress](https://raw.githubusercontent.com/xentaos/xenta-x-icons/master/build/Xenta-X/apps/96/cs-startup-programs.png)<br>Kunjungi halaman Xenta OS - Developer [Progress](http://dev.xentaos.org/progress.html)|
+|![Team](https://raw.githubusercontent.com/xentaos/xenta-x-icons/master/build/Xenta-X/apps/96/config-users.png)<br>Kunjungi halaman Xenta OS - Developer [Team](http://www.xentaos.com/p/team.html)|![Mission](https://raw.githubusercontent.com/xentaos/xenta-x-icons/master/build/Xenta-X/apps/96/cs-details.png)<br>Kunjungi halaman Xenta OS - Developer [Mission](http://www.xentaos.com/p/mission.html)|![Progress](https://raw.githubusercontent.com/xentaos/xenta-x-icons/master/build/Xenta-X/apps/96/cs-startup-programs.png)<br>Kunjungi halaman Xenta OS - Developer [Progress](http://www.xentaos.com/p/progress.html)|
 
-Xenta OS adalah Distribusi Sistem Operasi GNU/Linux Lokal Indonesia. Proyek ini terbuka bagi siapa saja yang mau berkontribusi. Tujuan didirikannya proyek ini salah satunya sebagai wadah berkreatifitas dan berkomunitas sesama penggiat GNU/Linux asal Indonesia.  Tertarik bergabung ? [Gabung disini](http://dev.xentaos.org/join.html).
+---
+Xenta OS adalah Distribusi Sistem Operasi GNU/Linux Lokal Indonesia. Proyek ini terbuka bagi siapa saja yang mau berkontribusi. Tujuan didirikannya proyek ini salah satunya sebagai wadah berkreatifitas dan berkomunitas sesama penggiat GNU/Linux asal Indonesia. Tertarik bergabung Menjadi Tim Dokumentasi ? [Ayo Gabung!](http://www.xentaos.com/p/join.html)
 
 Perangkat Lunak yang diperlukan dalam Berkontribusi:  
 **Cloning a repository to Local...** [Baca disini](https://help.github.com/articles/cloning-a-repository/)  
