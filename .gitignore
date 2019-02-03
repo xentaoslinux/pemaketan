@@ -92,6 +92,7 @@ packages/main/x/xenta-artwork-cinnamon
 packages/main/x/xenta-artwork-common
 packages/main/x/xenta-backgrounds
 packages/main/x/xenta-backgrounds-arok
+packages/main/x/xenta-backgrounds-batik
 packages/main/x/xenta-common
 packages/main/x/xenta-icons
 packages/main/x/xenta-info
@@ -109,6 +110,7 @@ packages/main/x/xentasystem
 packages/main/x/xenta-translations
 packages/main/x/xenta-user-guide
 packages/main/x/xenta-welcome-screen
+packages/main/x/xenta-welcome-screen-cinnamon64bit
 packages/main/x/xenta-icons
 packages/main/x/xenta-x-icons
 packages/main/x/xenta-x-theme
