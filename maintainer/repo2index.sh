@@ -103,7 +103,7 @@ reprepro -Vb . -C main includedeb       batik /home/$(whoami)/XentaOS/pemaketan/
 # reprepro -Vb . -C main includedeb       batik /home/$(whoami)/XentaOS/pemaketan/packages/main/t/**/*.deb
 # reprepro -Vb . -C main includedeb       batik /home/$(whoami)/XentaOS/pemaketan/packages/main/u/**/*.deb
 reprepro -Vb . -C main includedeb       batik /home/$(whoami)/XentaOS/pemaketan/packages/main/u/ubiquity/*.deb
-# reprepro -Vb . -C main includedeb       batik /home/$(whoami)/XentaOS/pemaketan/packages/main/u/ubiquity-slideshow-xenta/*.deb
+reprepro -Vb . -C main includedeb       batik /home/$(whoami)/XentaOS/pemaketan/packages/main/u/ubiquity-slideshow-xenta/*.deb
 # reprepro -Vb . -C main includedeb       batik /home/$(whoami)/XentaOS/pemaketan/packages/main/u/ubuntu-system-adjustments/*.deb
 # reprepro -Vb . -C main includedeb       batik /home/$(whoami)/XentaOS/pemaketan/packages/main/v/**/*.deb
 # reprepro -Vb . -C main includedeb       batik /home/$(whoami)/XentaOS/pemaketan/packages/main/w/**/*.deb
@@ -166,7 +166,7 @@ reprepro -Vb . -C main include       batik /home/$(whoami)/XentaOS/pemaketan/pac
 # reprepro -Vb . -C main include       batik /home/$(whoami)/XentaOS/pemaketan/packages/main/t/**/*.changes
 # reprepro -Vb . -C main include       batik /home/$(whoami)/XentaOS/pemaketan/packages/main/u/**/*.changes
 reprepro -Vb . -C main include       batik /home/$(whoami)/XentaOS/pemaketan/packages/main/u/ubiquity/*.changes
-# reprepro -Vb . -C main include       batik /home/$(whoami)/XentaOS/pemaketan/packages/main/u/ubiquity-slideshow-xenta/*.changes
+reprepro -Vb . -C main include       batik /home/$(whoami)/XentaOS/pemaketan/packages/main/u/ubiquity-slideshow-xenta/*.changes
 # reprepro -Vb . -C main include       batik /home/$(whoami)/XentaOS/pemaketan/packages/main/u/ubuntu-system-adjustments/*.changes
 # reprepro -Vb . -C main include       batik /home/$(whoami)/XentaOS/pemaketan/packages/main/v/**/*.changes
 # reprepro -Vb . -C main include       batik /home/$(whoami)/XentaOS/pemaketan/packages/main/w/**/*.changes
