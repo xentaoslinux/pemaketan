@@ -13,6 +13,6 @@
 # along with this program.  If not, see <http://www.gnu.org/licenses/>
 
 figlet repo2list
-repository=/home/$(whoami)/xentaos/pemaketan/repository
+repository=/home/$(whoami)/XentaOS/pemaketan/repository
 cd $repository
-reprepro list arok > ../database/PACKAGES.list
+reprepro list batik > ../database/PACKAGES.list
