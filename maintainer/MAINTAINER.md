@@ -17,7 +17,7 @@ E-Mail: <dindin_hernawan@yahoo.com>
  * Pengembangan
  * Perilisan
 
-# OpenPGP Public Key
+**OpenPGP Public Key**
 ```bash
 > pub   1024R/959CDDD1 2017-07-27  
 >      Key fingerprint = 707E C01E AC3C 2F7F 8723  30CB 4EDB 0BF7 959C DDD1  
