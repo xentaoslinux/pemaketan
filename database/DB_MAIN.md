@@ -50,7 +50,7 @@ main/x/xenta-mirrors
 main/x/xentaos-keyring  
 main/x/xenta-psdthumbnailer  
 main/x/xentaremaster
-main/x/xentascreenfetch
+main/x/xentascreenfetch  
 main/x/xenta-software-center  
 main/x/xentasources  
 main/x/xentasystem  
