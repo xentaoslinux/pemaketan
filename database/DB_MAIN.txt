@@ -25,7 +25,7 @@ main/q/
 main/r/  
 main/s/  
 main/s/seed  
-main/t/  
+main/t/test 
 main/u/  
 main/u/ubiquity  
 main/u/ubiquity-slideshow-xenta  
