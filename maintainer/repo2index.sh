@@ -74,129 +74,133 @@ reprepro -Vb . -C import include       batik /home/$(whoami)/XentaOS/pemaketan/p
 # reprepro -Vb . -C import include       batik /home/$(whoami)/XentaOS/pemaketan/packages/import/z/**/*.changes
 
 # Membuat Index Section Main Xenta OS Repository
-# reprepro -Vb . -C main includedeb       batik /home/$(whoami)/XentaOS/pemaketan/packages/main/a/**/*.deb
+reprepro -Vb . -C main includedeb       batik /home/$(whoami)/XentaOS/pemaketan/packages/main/a/apt-sources-list/*.deb
 # reprepro -Vb . -C main includedeb       batik /home/$(whoami)/XentaOS/pemaketan/packages/main/b/**/*.deb
 reprepro -Vb . -C main includedeb       batik /home/$(whoami)/XentaOS/pemaketan/packages/main/b/base-files/*.deb
 # reprepro -Vb . -C main includedeb       batik /home/$(whoami)/XentaOS/pemaketan/packages/main/c/**/*.deb
-# reprepro -Vb . -C main includedeb       batik /home/$(whoami)/XentaOS/pemaketan/packages/main/d/**/*.deb
+reprepro -Vb . -C main includedeb       batik /home/$(whoami)/XentaOS/pemaketan/packages/main/d/desktop-file-utils/*.deb
 # reprepro -Vb . -C main includedeb       batik /home/$(whoami)/XentaOS/pemaketan/packages/main/e/**/*.deb
 # reprepro -Vb . -C main includedeb       batik /home/$(whoami)/XentaOS/pemaketan/packages/main/f/**/*.deb
-# reprepro -Vb . -C main includedeb       batik /home/$(whoami)/XentaOS/pemaketan/packages/main/g/**/*.deb
+reprepro -Vb . -C main includedeb       batik /home/$(whoami)/XentaOS/pemaketan/packages/main/g/gdebi/*.deb
 reprepro -Vb . -C main includedeb       batik /home/$(whoami)/XentaOS/pemaketan/packages/main/g/grub2-theme-xenta/*.deb
 # reprepro -Vb . -C main includedeb       batik /home/$(whoami)/XentaOS/pemaketan/packages/main/h/**/*.deb
 # reprepro -Vb . -C main includedeb       batik /home/$(whoami)/XentaOS/pemaketan/packages/main/i/**/*.deb
 # reprepro -Vb . -C main includedeb       batik /home/$(whoami)/XentaOS/pemaketan/packages/main/j/**/*.deb
 # reprepro -Vb . -C main includedeb       batik /home/$(whoami)/XentaOS/pemaketan/packages/main/k/**/*.deb
 # reprepro -Vb . -C main includedeb       batik /home/$(whoami)/XentaOS/pemaketan/packages/main/l/**/*.deb
-# reprepro -Vb . -C main includedeb       batik /home/$(whoami)/XentaOS/pemaketan/packages/main/l/libreoffice-style-xenta/*.deb
-# reprepro -Vb . -C main includedeb       batik /home/$(whoami)/XentaOS/pemaketan/packages/main/m/**/*.deb
+reprepro -Vb . -C main includedeb       batik /home/$(whoami)/XentaOS/pemaketan/packages/main/l/libreoffice-style-xenta/*.deb
+reprepro -Vb . -C main includedeb       batik /home/$(whoami)/XentaOS/pemaketan/packages/main/m/muffin/*.deb
 reprepro -Vb . -C main includedeb       batik /home/$(whoami)/XentaOS/pemaketan/packages/main/m/mdm/*.deb
 # reprepro -Vb . -C main includedeb       batik /home/$(whoami)/XentaOS/pemaketan/packages/main/n/**/*.deb
 # reprepro -Vb . -C main includedeb       batik /home/$(whoami)/XentaOS/pemaketan/packages/main/o/**/*.deb
-# reprepro -Vb . -C main includedeb       batik /home/$(whoami)/XentaOS/pemaketan/packages/main/p/**/*.deb
-# reprepro -Vb . -C main includedeb       batik /home/$(whoami)/XentaOS/pemaketan/packages/main/p/plymouth-theme-xentaos/*.deb
 reprepro -Vb . -C main includedeb       batik /home/$(whoami)/XentaOS/pemaketan/packages/main/p/paketku/*.deb
+reprepro -Vb . -C main includedeb       batik /home/$(whoami)/XentaOS/pemaketan/packages/main/p/plymouth-theme-xentaos/*.deb
+reprepro -Vb . -C main includedeb       batik /home/$(whoami)/XentaOS/pemaketan/packages/main/p/plymouth/*.deb
 # reprepro -Vb . -C main includedeb       batik /home/$(whoami)/XentaOS/pemaketan/packages/main/q/**/*.deb
 # reprepro -Vb . -C main includedeb       batik /home/$(whoami)/XentaOS/pemaketan/packages/main/r/**/*.deb
-# reprepro -Vb . -C main includedeb       batik /home/$(whoami)/XentaOS/pemaketan/packages/main/s/**/*.deb
-# reprepro -Vb . -C main includedeb       batik /home/$(whoami)/XentaOS/pemaketan/packages/main/s/seed/*.deb
-# reprepro -Vb . -C main includedeb       batik /home/$(whoami)/XentaOS/pemaketan/packages/main/t/**/*.deb
+reprepro -Vb . -C main includedeb       batik /home/$(whoami)/XentaOS/pemaketan/packages/main/s/seed/*.deb
+reprepro -Vb . -C main includedeb       batik /home/$(whoami)/XentaOS/pemaketan/packages/main/s/syslinux-themes-xentaos/*.deb
+reprepro -Vb . -C main includedeb       batik /home/$(whoami)/XentaOS/pemaketan/packages/main/t/test/*.deb
 # reprepro -Vb . -C main includedeb       batik /home/$(whoami)/XentaOS/pemaketan/packages/main/u/**/*.deb
 reprepro -Vb . -C main includedeb       batik /home/$(whoami)/XentaOS/pemaketan/packages/main/u/ubiquity/*.deb
 reprepro -Vb . -C main includedeb       batik /home/$(whoami)/XentaOS/pemaketan/packages/main/u/ubiquity-slideshow-xenta/*.deb
-# reprepro -Vb . -C main includedeb       batik /home/$(whoami)/XentaOS/pemaketan/packages/main/u/ubuntu-system-adjustments/*.deb
+reprepro -Vb . -C main includedeb       batik /home/$(whoami)/XentaOS/pemaketan/packages/main/u/ubuntu-system-adjustments/*.deb
 # reprepro -Vb . -C main includedeb       batik /home/$(whoami)/XentaOS/pemaketan/packages/main/v/**/*.deb
 # reprepro -Vb . -C main includedeb       batik /home/$(whoami)/XentaOS/pemaketan/packages/main/w/**/*.deb
 # reprepro -Vb . -C main includedeb       batik /home/$(whoami)/XentaOS/pemaketan/packages/main/x/**/*.deb
-# reprepro -Vb . -C main includedeb       batik /home/$(whoami)/XentaOS/pemaketan/packages/main/x/xenta-artwork/*.deb
-# reprepro -Vb . -C main includedeb       batik /home/$(whoami)/XentaOS/pemaketan/packages/main/x/xenta-artwork-applications/*.deb
-# reprepro -Vb . -C main includedeb       batik /home/$(whoami)/XentaOS/pemaketan/packages/main/x/xenta-artwork-cinnamon/*.deb
-# reprepro -Vb . -C main includedeb       batik /home/$(whoami)/XentaOS/pemaketan/packages/main/x/xenta-artwork-common/*.deb
+reprepro -Vb . -C main includedeb       batik /home/$(whoami)/XentaOS/pemaketan/packages/main/x/xenta-artwork/*.deb
+reprepro -Vb . -C main includedeb       batik /home/$(whoami)/XentaOS/pemaketan/packages/main/x/xenta-artwork-applications/*.deb
+reprepro -Vb . -C main includedeb       batik /home/$(whoami)/XentaOS/pemaketan/packages/main/x/xenta-artwork-cinnamon/*.deb
+reprepro -Vb . -C main includedeb       batik /home/$(whoami)/XentaOS/pemaketan/packages/main/x/xenta-artwork-common/*.deb
+reprepro -Vb . -C main includedeb       batik /home/$(whoami)/XentaOS/pemaketan/packages/main/x/xenta-backgrounds-arok.deb
+reprepro -Vb . -C main includedeb       batik /home/$(whoami)/XentaOS/pemaketan/packages/main/x/xenta-backgrounds-batik/*.deb
 reprepro -Vb . -C main includedeb       batik /home/$(whoami)/XentaOS/pemaketan/packages/main/x/xenta-backgrounds/*.deb
-# reprepro -Vb . -C main includedeb       batik /home/$(whoami)/XentaOS/pemaketan/packages/main/x/xenta-backgrounds-batik/*.deb
 reprepro -Vb . -C main includedeb       batik /home/$(whoami)/XentaOS/pemaketan/packages/main/x/xenta-base-common/*.deb
-# reprepro -Vb . -C main includedeb       batik /home/$(whoami)/XentaOS/pemaketan/packages/main/x/xenta-common/*.deb
-# reprepro -Vb . -C main includedeb       batik /home/$(whoami)/XentaOS/pemaketan/packages/main/x/xenta-icons/*.deb
-# reprepro -Vb . -C main includedeb       batik /home/$(whoami)/XentaOS/pemaketan/packages/main/x/xenta-info/*.deb
-# reprepro -Vb . -C main includedeb       batik /home/$(whoami)/XentaOS/pemaketan/packages/main/x/xenta-mdm-themes/*.deb
-# reprepro -Vb . -C main includedeb       batik /home/$(whoami)/XentaOS/pemaketan/packages/main/x/xenta-mdm-themes-gdm/*.deb
-# reprepro -Vb . -C main includedeb       batik /home/$(whoami)/XentaOS/pemaketan/packages/main/x/xenta-mdm-themes-html/*.deb
-# reprepro -Vb . -C main includedeb       batik /home/$(whoami)/XentaOS/pemaketan/packages/main/x/xenta-mirrors/*.deb
-# reprepro -Vb . -C main includedeb       batik /home/$(whoami)/XentaOS/pemaketan/packages/main/x/xentaos-keyring/*.deb
-# reprepro -Vb . -C main includedeb       batik /home/$(whoami)/XentaOS/pemaketan/packages/main/x/xenta-psdthumbnailer/*.deb
-# reprepro -Vb . -C main includedeb       batik /home/$(whoami)/XentaOS/pemaketan/packages/main/x/xentaremaster/*.deb
+reprepro -Vb . -C main includedeb       batik /home/$(whoami)/XentaOS/pemaketan/packages/main/x/xenta-common/*.deb
+reprepro -Vb . -C main includedeb       batik /home/$(whoami)/XentaOS/pemaketan/packages/main/x/xenta-icons/*.deb
+reprepro -Vb . -C main includedeb       batik /home/$(whoami)/XentaOS/pemaketan/packages/main/x/xenta-info/*.deb
+reprepro -Vb . -C main includedeb       batik /home/$(whoami)/XentaOS/pemaketan/packages/main/x/xenta-mdm-themes-gdm/*.deb
+reprepro -Vb . -C main includedeb       batik /home/$(whoami)/XentaOS/pemaketan/packages/main/x/xenta-mdm-themes/*.deb
+reprepro -Vb . -C main includedeb       batik /home/$(whoami)/XentaOS/pemaketan/packages/main/x/xenta-mdm-themes-html/*.deb
+reprepro -Vb . -C main includedeb       batik /home/$(whoami)/XentaOS/pemaketan/packages/main/x/xenta-mirrors/*.deb
+reprepro -Vb . -C main includedeb       batik /home/$(whoami)/XentaOS/pemaketan/packages/main/x/xentaos-keyring/*.deb
+reprepro -Vb . -C main includedeb       batik /home/$(whoami)/XentaOS/pemaketan/packages/main/x/xenta-psdthumbnailer/*.deb
+reprepro -Vb . -C main includedeb       batik /home/$(whoami)/XentaOS/pemaketan/packages/main/x/xentaremaster/*.deb
 reprepro -Vb . -C main includedeb       batik /home/$(whoami)/XentaOS/pemaketan/packages/main/x/xentascreenfetch/*.deb
-# reprepro -Vb . -C main includedeb       batik /home/$(whoami)/XentaOS/pemaketan/packages/main/x/xenta-software-center/*.deb
-# reprepro -Vb . -C main includedeb       batik /home/$(whoami)/XentaOS/pemaketan/packages/main/x/xentasources/*.deb
+reprepro -Vb . -C main includedeb       batik /home/$(whoami)/XentaOS/pemaketan/packages/main/x/xenta-software-center/*.deb
+reprepro -Vb . -C main includedeb       batik /home/$(whoami)/XentaOS/pemaketan/packages/main/x/xentasources/*.deb
 reprepro -Vb . -C main includedeb       batik /home/$(whoami)/XentaOS/pemaketan/packages/main/x/xentasystem/*.deb
-# reprepro -Vb . -C main includedeb       batik /home/$(whoami)/XentaOS/pemaketan/packages/main/x/xenta-translations/*.deb
-# reprepro -Vb . -C main includedeb       batik /home/$(whoami)/XentaOS/pemaketan/packages/main/x/xenta-user-guide/*.deb
+reprepro -Vb . -C main includedeb       batik /home/$(whoami)/XentaOS/pemaketan/packages/main/x/xenta-translations/*.deb
+reprepro -Vb . -C main includedeb       batik /home/$(whoami)/XentaOS/pemaketan/packages/main/x/xenta-user-guide/*.deb
 reprepro -Vb . -C main includedeb       batik /home/$(whoami)/XentaOS/pemaketan/packages/main/x/xenta-welcome-screen/*.deb
-# reprepro -Vb . -C main includedeb       batik /home/$(whoami)/XentaOS/pemaketan/packages/main/x/xenta-icons/*.deb
-# reprepro -Vb . -C main includedeb       batik /home/$(whoami)/XentaOS/pemaketan/packages/main/x/xenta-x-icons/*.deb
+reprepro -Vb . -C main includedeb       batik /home/$(whoami)/XentaOS/pemaketan/packages/main/x/xenta-welcome-screen-cinnamon64bit/*.deb
+reprepro -Vb . -C main includedeb       batik /home/$(whoami)/XentaOS/pemaketan/packages/main/x/xenta-icons/*.deb
+reprepro -Vb . -C main includedeb       batik /home/$(whoami)/XentaOS/pemaketan/packages/main/x/xenta-x-icons/*.deb
 reprepro -Vb . -C main includedeb       batik /home/$(whoami)/XentaOS/pemaketan/packages/main/x/xenta-x-theme/*.deb
 # reprepro -Vb . -C main includedeb       batik /home/$(whoami)/XentaOS/pemaketan/packages/main/y/**/*.deb
 # reprepro -Vb . -C main includedeb       batik /home/$(whoami)/XentaOS/pemaketan/packages/main/z/**/*.deb
-# reprepro -Vb . -C main include       batik /home/$(whoami)/XentaOS/pemaketan/packages/main/a/**/*.changes
+reprepro -Vb . -C main include       batik /home/$(whoami)/XentaOS/pemaketan/packages/main/a/apt-sources-list/*.changes
 # reprepro -Vb . -C main include       batik /home/$(whoami)/XentaOS/pemaketan/packages/main/b/**/*.changes
 reprepro -Vb . -C main include       batik /home/$(whoami)/XentaOS/pemaketan/packages/main/b/base-files/*.changes
 # reprepro -Vb . -C main include       batik /home/$(whoami)/XentaOS/pemaketan/packages/main/c/**/*.changes
-# reprepro -Vb . -C main include       batik /home/$(whoami)/XentaOS/pemaketan/packages/main/d/**/*.changes
+reprepro -Vb . -C main include       batik /home/$(whoami)/XentaOS/pemaketan/packages/main/d/desktop-file-utils/*.changes
 # reprepro -Vb . -C main include       batik /home/$(whoami)/XentaOS/pemaketan/packages/main/e/**/*.changes
 # reprepro -Vb . -C main include       batik /home/$(whoami)/XentaOS/pemaketan/packages/main/f/**/*.changes
-# reprepro -Vb . -C main include       batik /home/$(whoami)/XentaOS/pemaketan/packages/main/g/**/*.changes
+reprepro -Vb . -C main include       batik /home/$(whoami)/XentaOS/pemaketan/packages/main/g/gdebi/*.changes
 reprepro -Vb . -C main include       batik /home/$(whoami)/XentaOS/pemaketan/packages/main/g/grub2-theme-xenta/*.changes
 # reprepro -Vb . -C main include       batik /home/$(whoami)/XentaOS/pemaketan/packages/main/h/**/*.changes
 # reprepro -Vb . -C main include       batik /home/$(whoami)/XentaOS/pemaketan/packages/main/i/**/*.changes
 # reprepro -Vb . -C main include       batik /home/$(whoami)/XentaOS/pemaketan/packages/main/j/**/*.changes
 # reprepro -Vb . -C main include       batik /home/$(whoami)/XentaOS/pemaketan/packages/main/k/**/*.changes
 # reprepro -Vb . -C main include       batik /home/$(whoami)/XentaOS/pemaketan/packages/main/l/**/*.changes
-# reprepro -Vb . -C main include       batik /home/$(whoami)/XentaOS/pemaketan/packages/main/l/libreoffice-style-xenta/*.changes
-# reprepro -Vb . -C main include       batik /home/$(whoami)/XentaOS/pemaketan/packages/main/m/**/*.changes
+reprepro -Vb . -C main include       batik /home/$(whoami)/XentaOS/pemaketan/packages/main/l/libreoffice-style-xenta/*.changes
+reprepro -Vb . -C main include       batik /home/$(whoami)/XentaOS/pemaketan/packages/main/m/muffin/*.changes
 reprepro -Vb . -C main include       batik /home/$(whoami)/XentaOS/pemaketan/packages/main/m/mdm/*.changes
 # reprepro -Vb . -C main include       batik /home/$(whoami)/XentaOS/pemaketan/packages/main/n/**/*.changes
 # reprepro -Vb . -C main include       batik /home/$(whoami)/XentaOS/pemaketan/packages/main/o/**/*.changes
-# reprepro -Vb . -C main include       batik /home/$(whoami)/XentaOS/pemaketan/packages/main/p/**/*.changes
-# reprepro -Vb . -C main include       batik /home/$(whoami)/XentaOS/pemaketan/packages/main/p/plymouth-theme-xentaos/*.changes
 reprepro -Vb . -C main include       batik /home/$(whoami)/XentaOS/pemaketan/packages/main/p/paketku/*.changes
+reprepro -Vb . -C main include       batik /home/$(whoami)/XentaOS/pemaketan/packages/main/p/plymouth-theme-xentaos/*.changes
+reprepro -Vb . -C main include       batik /home/$(whoami)/XentaOS/pemaketan/packages/main/p/plymouth/*.changes
 # reprepro -Vb . -C main include       batik /home/$(whoami)/XentaOS/pemaketan/packages/main/q/**/*.changes
 # reprepro -Vb . -C main include       batik /home/$(whoami)/XentaOS/pemaketan/packages/main/r/**/*.changes
-# reprepro -Vb . -C main include       batik /home/$(whoami)/XentaOS/pemaketan/packages/main/s/**/*.changes
-# reprepro -Vb . -C main include       batik /home/$(whoami)/XentaOS/pemaketan/packages/main/s/seed/*.changes
-# reprepro -Vb . -C main include       batik /home/$(whoami)/XentaOS/pemaketan/packages/main/t/**/*.changes
+reprepro -Vb . -C main include       batik /home/$(whoami)/XentaOS/pemaketan/packages/main/s/seed/*.changes
+reprepro -Vb . -C main include       batik /home/$(whoami)/XentaOS/pemaketan/packages/main/s/syslinux-themes-xentaos/*.changes
+reprepro -Vb . -C main include       batik /home/$(whoami)/XentaOS/pemaketan/packages/main/t/test/*.changes
 # reprepro -Vb . -C main include       batik /home/$(whoami)/XentaOS/pemaketan/packages/main/u/**/*.changes
 reprepro -Vb . -C main include       batik /home/$(whoami)/XentaOS/pemaketan/packages/main/u/ubiquity/*.changes
 reprepro -Vb . -C main include       batik /home/$(whoami)/XentaOS/pemaketan/packages/main/u/ubiquity-slideshow-xenta/*.changes
-# reprepro -Vb . -C main include       batik /home/$(whoami)/XentaOS/pemaketan/packages/main/u/ubuntu-system-adjustments/*.changes
+reprepro -Vb . -C main include       batik /home/$(whoami)/XentaOS/pemaketan/packages/main/u/ubuntu-system-adjustments/*.changes
 # reprepro -Vb . -C main include       batik /home/$(whoami)/XentaOS/pemaketan/packages/main/v/**/*.changes
 # reprepro -Vb . -C main include       batik /home/$(whoami)/XentaOS/pemaketan/packages/main/w/**/*.changes
 # reprepro -Vb . -C main include       batik /home/$(whoami)/XentaOS/pemaketan/packages/main/x/**/*.changes
-# reprepro -Vb . -C main include       batik /home/$(whoami)/XentaOS/pemaketan/packages/main/x/xenta-artwork/*.changes
-# reprepro -Vb . -C main include       batik /home/$(whoami)/XentaOS/pemaketan/packages/main/x/xenta-artwork-applications/*.changes
-# reprepro -Vb . -C main include       batik /home/$(whoami)/XentaOS/pemaketan/packages/main/x/xenta-artwork-cinnamon/*.changes
-# reprepro -Vb . -C main include       batik /home/$(whoami)/XentaOS/pemaketan/packages/main/x/xenta-artwork-common/*.changes
+reprepro -Vb . -C main include       batik /home/$(whoami)/XentaOS/pemaketan/packages/main/x/xenta-artwork/*.changes
+reprepro -Vb . -C main include       batik /home/$(whoami)/XentaOS/pemaketan/packages/main/x/xenta-artwork-applications/*.changes
+reprepro -Vb . -C main include       batik /home/$(whoami)/XentaOS/pemaketan/packages/main/x/xenta-artwork-cinnamon/*.changes
+reprepro -Vb . -C main include       batik /home/$(whoami)/XentaOS/pemaketan/packages/main/x/xenta-artwork-common/*.changes
+reprepro -Vb . -C main include       batik /home/$(whoami)/XentaOS/pemaketan/packages/main/x/xenta-backgrounds-arok/*.changes
+reprepro -Vb . -C main include       batik /home/$(whoami)/XentaOS/pemaketan/packages/main/x/xenta-backgrounds-batik/*.changes
 reprepro -Vb . -C main include       batik /home/$(whoami)/XentaOS/pemaketan/packages/main/x/xenta-backgrounds/*.changes
-# reprepro -Vb . -C main include       batik /home/$(whoami)/XentaOS/pemaketan/packages/main/x/xenta-backgrounds-batik/*.changes
 reprepro -Vb . -C main include       batik /home/$(whoami)/XentaOS/pemaketan/packages/main/x/xenta-base-common/*.changes
-# reprepro -Vb . -C main include       batik /home/$(whoami)/XentaOS/pemaketan/packages/main/x/xenta-common/*.changes
-# reprepro -Vb . -C main include       batik /home/$(whoami)/XentaOS/pemaketan/packages/main/x/xenta-icons/*.changes
-# reprepro -Vb . -C main include       batik /home/$(whoami)/XentaOS/pemaketan/packages/main/x/xenta-info/*.changes
-# reprepro -Vb . -C main include       batik /home/$(whoami)/XentaOS/pemaketan/packages/main/x/xenta-mdm-themes/*.changes
-# reprepro -Vb . -C main include       batik /home/$(whoami)/XentaOS/pemaketan/packages/main/x/xenta-mdm-themes-gdm/*.changes
-# reprepro -Vb . -C main include       batik /home/$(whoami)/XentaOS/pemaketan/packages/main/x/xenta-mdm-themes-html/*.changes
-# reprepro -Vb . -C main include       batik /home/$(whoami)/XentaOS/pemaketan/packages/main/x/xenta-mirrors/*.changes
-# reprepro -Vb . -C main include       batik /home/$(whoami)/XentaOS/pemaketan/packages/main/x/xentaos-keyring/*.changes
-# reprepro -Vb . -C main include       batik /home/$(whoami)/XentaOS/pemaketan/packages/main/x/xenta-psdthumbnailer/*.changes
-# reprepro -Vb . -C main include       batik /home/$(whoami)/XentaOS/pemaketan/packages/main/x/xentaremaster/*.changes
+reprepro -Vb . -C main include       batik /home/$(whoami)/XentaOS/pemaketan/packages/main/x/xenta-common/*.changes
+reprepro -Vb . -C main include       batik /home/$(whoami)/XentaOS/pemaketan/packages/main/x/xenta-icons/*.changes
+reprepro -Vb . -C main include       batik /home/$(whoami)/XentaOS/pemaketan/packages/main/x/xenta-info/*.changes
+reprepro -Vb . -C main include       batik /home/$(whoami)/XentaOS/pemaketan/packages/main/x/xenta-mdm-themes-gdm/*.changes
+reprepro -Vb . -C main include       batik /home/$(whoami)/XentaOS/pemaketan/packages/main/x/xenta-mdm-themes/*.changes
+reprepro -Vb . -C main include       batik /home/$(whoami)/XentaOS/pemaketan/packages/main/x/xenta-mdm-themes-html/*.changes
+reprepro -Vb . -C main include       batik /home/$(whoami)/XentaOS/pemaketan/packages/main/x/xenta-mirrors/*.changes
+reprepro -Vb . -C main include       batik /home/$(whoami)/XentaOS/pemaketan/packages/main/x/xentaos-keyring/*.changes
+reprepro -Vb . -C main include       batik /home/$(whoami)/XentaOS/pemaketan/packages/main/x/xenta-psdthumbnailer/*.changes
+reprepro -Vb . -C main include       batik /home/$(whoami)/XentaOS/pemaketan/packages/main/x/xentaremaster/*.changes
 reprepro -Vb . -C main include       batik /home/$(whoami)/XentaOS/pemaketan/packages/main/x/xentascreenfetch/*.changes
-# reprepro -Vb . -C main include       batik /home/$(whoami)/XentaOS/pemaketan/packages/main/x/xenta-software-center/*.changes
-# reprepro -Vb . -C main include       batik /home/$(whoami)/XentaOS/pemaketan/packages/main/x/xentasources/*.changes
+reprepro -Vb . -C main include       batik /home/$(whoami)/XentaOS/pemaketan/packages/main/x/xenta-software-center/*.changes
+reprepro -Vb . -C main include       batik /home/$(whoami)/XentaOS/pemaketan/packages/main/x/xentasources/*.changes
 reprepro -Vb . -C main include       batik /home/$(whoami)/XentaOS/pemaketan/packages/main/x/xentasystem/*.changes
-# reprepro -Vb . -C main include       batik /home/$(whoami)/XentaOS/pemaketan/packages/main/x/xenta-translations/*.changes
-# reprepro -Vb . -C main include       batik /home/$(whoami)/XentaOS/pemaketan/packages/main/x/xenta-user-guide/*.changes
+reprepro -Vb . -C main include       batik /home/$(whoami)/XentaOS/pemaketan/packages/main/x/xenta-translations/*.changes
+reprepro -Vb . -C main include       batik /home/$(whoami)/XentaOS/pemaketan/packages/main/x/xenta-user-guide/*.changes
 reprepro -Vb . -C main include       batik /home/$(whoami)/XentaOS/pemaketan/packages/main/x/xenta-welcome-screen/*.changes
-# reprepro -Vb . -C main include       batik /home/$(whoami)/XentaOS/pemaketan/packages/main/x/xenta-icons/*.changes
-# reprepro -Vb . -C main include       batik /home/$(whoami)/XentaOS/pemaketan/packages/main/x/xenta-x-icons/*.changes
+reprepro -Vb . -C main include       batik /home/$(whoami)/XentaOS/pemaketan/packages/main/x/xenta-welcome-screen-cinnamon64bit/*.changes
+reprepro -Vb . -C main include       batik /home/$(whoami)/XentaOS/pemaketan/packages/main/x/xenta-icons/*.changes
+reprepro -Vb . -C main include       batik /home/$(whoami)/XentaOS/pemaketan/packages/main/x/xenta-x-icons/*.changes
 reprepro -Vb . -C main include       batik /home/$(whoami)/XentaOS/pemaketan/packages/main/x/xenta-x-theme/*.changes
 # reprepro -Vb . -C main include       batik /home/$(whoami)/XentaOS/pemaketan/packages/main/y/**/*.changes
 # reprepro -Vb . -C main include       batik /home/$(whoami)/XentaOS/pemaketan/packages/main/z/**/*.changes
