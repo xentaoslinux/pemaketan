@@ -10,7 +10,7 @@ import/g/gbilling-client
 import/g/gbilling-server  
 import/g/geany
 import/h/  
-import/i/  
+import/i/inkscape
 import/j/  
 import/k/  
 import/l/  

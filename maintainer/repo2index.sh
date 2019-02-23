@@ -26,7 +26,7 @@ reprepro -Vb . -C import includedeb       batik /home/$(whoami)/XentaOS/pemaketa
 reprepro -Vb . -C import includedeb       batik /home/$(whoami)/XentaOS/pemaketan/packages/import/g/geany/*.deb
 # reprepro -Vb . -C import includedeb       batik /home/$(whoami)/XentaOS/pemaketan/packages/import/g/**/*.deb
 # reprepro -Vb . -C import includedeb       batik /home/$(whoami)/XentaOS/pemaketan/packages/import/h/**/*.deb
-# reprepro -Vb . -C import includedeb       batik /home/$(whoami)/XentaOS/pemaketan/packages/import/i/**/*.deb
+reprepro -Vb . -C import includedeb       batik /home/$(whoami)/XentaOS/pemaketan/packages/import/i/inkscape/*.deb
 # reprepro -Vb . -C import includedeb       batik /home/$(whoami)/XentaOS/pemaketan/packages/import/j/**/*.deb
 # reprepro -Vb . -C import includedeb       batik /home/$(whoami)/XentaOS/pemaketan/packages/import/k/**/*.deb
 # reprepro -Vb . -C import includedeb       batik /home/$(whoami)/XentaOS/pemaketan/packages/import/l/**/*.deb
@@ -54,7 +54,7 @@ reprepro -Vb . -C import include       batik /home/$(whoami)/XentaOS/pemaketan/p
 # reprepro -Vb . -C import include       batik /home/$(whoami)/XentaOS/pemaketan/packages/import/g/**/*.changes
 # reprepro -Vb . -C import include       batik /home/$(whoami)/XentaOS/pemaketan/packages/import/g/**/*.changes
 # reprepro -Vb . -C import include       batik /home/$(whoami)/XentaOS/pemaketan/packages/import/h/**/*.changes
-# reprepro -Vb . -C import include       batik /home/$(whoami)/XentaOS/pemaketan/packages/import/i/**/*.changes
+reprepro -Vb . -C import include       batik /home/$(whoami)/XentaOS/pemaketan/packages/import/i/inkscape/*.changes
 # reprepro -Vb . -C import include       batik /home/$(whoami)/XentaOS/pemaketan/packages/import/j/**/*.changes
 # reprepro -Vb . -C import include       batik /home/$(whoami)/XentaOS/pemaketan/packages/import/k/**/*.changes
 # reprepro -Vb . -C import include       batik /home/$(whoami)/XentaOS/pemaketan/packages/import/l/**/*.changes
