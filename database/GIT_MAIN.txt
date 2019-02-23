@@ -1,11 +1,18 @@
 # Section Main Repository
+git@github.com:xentaoslinux/apt-sources-list.git
 git@github.com:xentaoslinux/base-files.git  
+git@github.com:xentaoslinux/desktop-file-utils.git
 git@github.com:xentaoslinux/grub2-theme-xenta.git  
+git@github.com:xentaoslinux/gdebi.git
 git@github.com:xentaoslinux/libreoffice-style-xenta.git  
+git@github.com:xentaoslinux/muffin.git
 git@github.com:xentaoslinux/mdm.git  
 git@github.com:xentaoslinux/paketku.git  
 git@github.com:xentaoslinux/plymouth-theme-xentaos.git  
+git@github.com:xentaoslinux/plymouth.git
 git@github.com:xentaoslinux/seed.git  
+git@github.com:xentaoslinux/syslinux-themes-xentaos.git
+git@github.com:xentaoslinux/test.git  
 git@github.com:xentaoslinux/ubiquity.git  
 git@github.com:xentaoslinux/ubiquity-slideshow-xenta.git  
 git@github.com:xentaoslinux/ubuntu-system-adjustments.git  
@@ -13,7 +20,8 @@ git@github.com:xentaoslinux/xenta-artwork-applications.git
 git@github.com:xentaoslinux/xenta-artwork-cinnamon.git  
 git@github.com:xentaoslinux/xenta-artwork-common.git  
 git@github.com:xentaoslinux/xenta-artwork.git  
-git@github.com:xentaoslinux/xenta-backgrounds-arok.git  
+git@github.com:xentaoslinux/xenta-backgrounds-arok.git 
+git@github.com:xentaoslinux/xenta-backgrounds-batik.git 
 git@github.com:xentaoslinux/xenta-backgrounds.git  
 git@github.com:xentaoslinux/xenta-base-common.git  
 git@github.com:xentaoslinux/xenta-common.git  
