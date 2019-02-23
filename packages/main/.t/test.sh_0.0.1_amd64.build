@@ -1,0 +1,9 @@
+ dpkg-buildpackage -rfakeroot -D -us -uc
+dpkg-buildpackage: source package test.sh
+dpkg-buildpackage: source version 0.0.1
+dpkg-buildpackage: source distribution batik
+dpkg-buildpackage: source changed by Pramana Agung (Xenta OS) <langkatnetwork@gmail.com>
+ dpkg-source --before-build test
+dpkg-buildpackage: host architecture amd64
+dpkg-source: error: source package has two conflicting values - test and test.sh
+dpkg-buildpackage: error: dpkg-source --before-build test gave error exit status 2
