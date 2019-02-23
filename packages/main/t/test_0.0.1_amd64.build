@@ -1,0 +1,70 @@
+ dpkg-buildpackage -rfakeroot -D -us -uc
+dpkg-buildpackage: source package test
+dpkg-buildpackage: source version 0.0.1
+dpkg-buildpackage: source distribution batik
+dpkg-buildpackage: source changed by Maulana Teguh Setiawan (Xenta OS) <maasteguhid@gmail.com>
+ dpkg-source --before-build test
+dpkg-buildpackage: host architecture amd64
+ fakeroot debian/rules clean
+dh clean 
+   dh_testdir
+   dh_auto_clean
+   dh_clean
+ dpkg-source -b test
+dpkg-source: info: using source format '3.0 (native)'
+dpkg-source: info: building test in test_0.0.1.tar.xz
+dpkg-source: info: building test in test_0.0.1.dsc
+ debian/rules build
+dh build 
+   dh_testdir
+   dh_update_autotools_config
+   dh_auto_configure
+   debian/rules override_dh_auto_build
+make[1]: Entering directory '/home/mtblog/XentaOS/pemaketan/packages/main/t/test'
+# Memberikan Perizinan Eksekusi Berkas Script hello.sh dan hello-dep.sh
+find test.sh -type f -print -exec chmod 0775 '{}' \;
+test.sh
+make[1]: Leaving directory '/home/mtblog/XentaOS/pemaketan/packages/main/t/test'
+   dh_auto_test
+ fakeroot debian/rules binary
+dh binary 
+   dh_testroot
+   dh_prep
+   dh_installdirs
+   dh_auto_install
+   dh_install
+   dh_installdocs
+   dh_installchangelogs
+   dh_perl
+   dh_link
+   dh_strip_nondeterminism
+   dh_compress
+   dh_fixperms
+   dh_installdeb
+   dh_gencontrol
+   dh_md5sums
+   debian/rules override_dh_builddeb
+make[1]: Entering directory '/home/mtblog/XentaOS/pemaketan/packages/main/t/test'
+dh_builddeb -- -Zxz -z9
+dpkg-deb: building package 'test' in '../test_0.0.1_all.deb'.
+make[1]: Leaving directory '/home/mtblog/XentaOS/pemaketan/packages/main/t/test'
+ dpkg-genchanges  >../test_0.0.1_amd64.changes
+dpkg-genchanges: including full source code in upload
+ dpkg-source --after-build test
+dpkg-buildpackage: full upload; Debian-native package (full source is included)
+Now running lintian...
+E: test changes: bad-distribution-in-changes-file batik
+W: test source: debhelper-but-no-misc-depends test
+W: test source: missing-field-in-dep5-copyright license (paragraph at line 6)
+W: test source: file-without-copyright-information README.md
+W: test source: file-without-copyright-information test.sh
+W: test: description-starts-with-leading-spaces
+W: test: script-with-language-extension usr/bin/test.sh
+W: test: binary-without-manpage usr/bin/test.sh
+Finished running lintian.
+Now signing changes and any dsc files...
+ signfile test_0.0.1.dsc Maulana Teguh Setiawan (Xenta OS) <maasteguhid@gmail.com>
+
+ signfile test_0.0.1_amd64.changes Maulana Teguh Setiawan (Xenta OS) <maasteguhid@gmail.com>
+
+Successfully signed dsc and changes files
