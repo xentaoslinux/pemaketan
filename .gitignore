@@ -18,7 +18,7 @@ packages/import/*/*/*.dsc
 packages/import/*/*/*.tar.xz
 packages/temp
 #packages/import/a/
-#packages/import/b/
+packages/import/b/bluefish
 #packages/import/c/
 #packages/import/d/
 #packages/import/e/

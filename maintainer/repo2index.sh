@@ -17,7 +17,7 @@ repository=/home/$(whoami)/XentaOS/pemaketan/repository
 cd $repository
 # Membuat Index Section Import Xenta OS Repository
 # reprepro -Vb . -C import includedeb       batik /home/$(whoami)/XentaOS/pemaketan/packages/import/a/**/*.deb
-# reprepro -Vb . -C import includedeb       batik /home/$(whoami)/XentaOS/pemaketan/packages/import/b/**/*.deb
+reprepro -Vb . -C import includedeb       batik /home/$(whoami)/XentaOS/pemaketan/packages/import/b/bluefish*/*.deb
 # reprepro -Vb . -C import includedeb       batik /home/$(whoami)/XentaOS/pemaketan/packages/import/c/**/*.deb
 # reprepro -Vb . -C import includedeb       batik /home/$(whoami)/XentaOS/pemaketan/packages/import/d/**/*.deb
 # reprepro -Vb . -C import includedeb       batik /home/$(whoami)/XentaOS/pemaketan/packages/import/e/**/*.deb
@@ -45,7 +45,7 @@ reprepro -Vb . -C import includedeb       batik /home/$(whoami)/XentaOS/pemaketa
 # reprepro -Vb . -C import includedeb       batik /home/$(whoami)/XentaOS/pemaketan/packages/import/y/**/*.deb
 # reprepro -Vb . -C import includedeb       batik /home/$(whoami)/XentaOS/pemaketan/packages/import/z/**/*.deb
 # reprepro -Vb . -C import include       batik /home/$(whoami)/XentaOS/pemaketan/packages/import/a/**/*.changes
-# reprepro -Vb . -C import include       batik /home/$(whoami)/XentaOS/pemaketan/packages/import/b/**/*.changes
+reprepro -Vb . -C import include       batik /home/$(whoami)/XentaOS/pemaketan/packages/import/b/bluefish/*.changes
 # reprepro -Vb . -C import include       batik /home/$(whoami)/XentaOS/pemaketan/packages/import/c/**/*.changes
 # reprepro -Vb . -C import include       batik /home/$(whoami)/XentaOS/pemaketan/packages/import/d/**/*.changes
 # reprepro -Vb . -C import include       batik /home/$(whoami)/XentaOS/pemaketan/packages/import/e/**/*.changes
