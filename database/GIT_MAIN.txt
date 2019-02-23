@@ -6,6 +6,7 @@ git@github.com:xentaoslinux/mdm.git
 git@github.com:xentaoslinux/paketku.git  
 git@github.com:xentaoslinux/plymouth-theme-xentaos.git  
 git@github.com:xentaoslinux/seed.git  
+git@github.com:xentaoslinux/test.git  
 git@github.com:xentaoslinux/ubiquity.git  
 git@github.com:xentaoslinux/ubiquity-slideshow-xenta.git  
 git@github.com:xentaoslinux/ubuntu-system-adjustments.git  
