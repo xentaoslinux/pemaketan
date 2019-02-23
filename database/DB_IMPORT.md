@@ -17,7 +17,7 @@ import/l/
 import/m/  
 import/n/  
 import/o/  
-import/p/Pinta
+import/p/pinta
 import/q/  
 import/r/  
 import/s/  

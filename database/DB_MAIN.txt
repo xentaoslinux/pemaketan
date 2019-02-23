@@ -57,7 +57,8 @@ main/x/xentasources
 main/x/xentasystem  
 main/x/xenta-translations  
 main/x/xenta-user-guide  
-main/x/xenta-welcome-screen  
+main/x/xenta-welcome-screen
+main/x/xenta-welcome-screen-cinnamon64bit 
 main/x/xenta-icons  
 main/x/xenta-x-icons  
 main/x/xenta-x-theme  
