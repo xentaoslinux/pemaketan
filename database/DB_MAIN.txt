@@ -37,6 +37,7 @@ main/x/xenta-artwork
 main/x/xenta-artwork-applications  
 main/x/xenta-artwork-cinnamon  
 main/x/xenta-artwork-common  
+main/x/xenta-artwork-gnome  
 main/x/xenta-artwork-xfce  
 main/x/xenta-backgrounds  
 main/x/xenta-backgrounds-arok  
