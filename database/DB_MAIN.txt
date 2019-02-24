@@ -47,6 +47,7 @@ main/x/xenta-base-common
 main/x/xenta-common  
 main/x/xenta-icons  
 main/x/xenta-info  
+main/x/xenta-info-xfce  
 main/x/xenta-mdm-themes  
 main/x/xenta-mdm-themes-gdm  
 main/x/xenta-mdm-themes-html 
