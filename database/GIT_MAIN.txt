@@ -32,6 +32,7 @@ git@github.com:xentaoslinux/xenta-info.git
 git@github.com:xentaoslinux/xenta-mdm-themes-gdm.git  
 git@github.com:xentaoslinux/xenta-mdm-themes.git  
 git@github.com:xentaoslinux/xenta-mdm-themes-html.git  
+git@github.com:xentaoslinux/xenta-meta-core.git  
 git@github.com:xentaoslinux/xenta-meta-xfce.git  
 git@github.com:xentaoslinux/xenta-mirrors.git  
 git@github.com:xentaoslinux/xentaos-keyring.git  
