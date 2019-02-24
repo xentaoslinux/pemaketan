@@ -28,6 +28,7 @@ git@github.com:xentaoslinux/xenta-backgrounds-xfce.git
 git@github.com:xentaoslinux/xenta-backgrounds.git  
 git@github.com:xentaoslinux/xenta-base-common.git  
 git@github.com:xentaoslinux/xenta-common.git  
+git@github.com:xentaoslinux/xentadesktop.git  
 git@github.com:xentaoslinux/xenta-icons.git  
 git@github.com:xentaoslinux/xenta-info.git  
 git@github.com:xentaoslinux/xenta-info-xfce.git  

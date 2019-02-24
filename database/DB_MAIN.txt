@@ -45,6 +45,7 @@ main/x/xenta-backgrounds-batik
 main/x/xenta-backgrounds-xfce  
 main/x/xenta-base-common  
 main/x/xenta-common  
+main/x/xentadesktop  
 main/x/xenta-icons  
 main/x/xenta-info  
 main/x/xenta-info-xfce  
