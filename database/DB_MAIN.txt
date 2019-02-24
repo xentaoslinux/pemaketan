@@ -61,6 +61,7 @@ main/x/xentascreenfetch
 main/x/xenta-software-center  
 main/x/xentasources  
 main/x/xentasystem  
+main/x/xenta-themes  
 main/x/xenta-translations  
 main/x/xenta-user-guide  
 main/x/xenta-welcome-screen

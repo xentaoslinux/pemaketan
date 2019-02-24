@@ -44,6 +44,7 @@ git@github.com:xentaoslinux/xentascreenfetch.git
 git@github.com:xentaoslinux/xenta-software-center.git  
 git@github.com:xentaoslinux/xentasources.git  
 git@github.com:xentaoslinux/xentasystem.git  
+git@github.com:xentaoslinux/xenta-themes.git  
 git@github.com:xentaoslinux/xenta-translations.git  
 git@github.com:xentaoslinux/xenta-user-guide.git  
 git@github.com:xentaoslinux/xenta-welcome-screen.git  
