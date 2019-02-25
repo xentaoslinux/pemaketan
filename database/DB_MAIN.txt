@@ -1,5 +1,7 @@
 **Main**
 main/a/apt-sources-list
+main/a/apturl
+main/a/apturl-common
 main/b/  
 main/b/base-files  
 main/c/  
