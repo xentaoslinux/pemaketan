@@ -26,7 +26,7 @@ batik|main|i386: xenta-backgrounds 1.3.1+xentaos2
 batik|main|i386: xenta-backgrounds-xfce 2.0.1+xentaos2
 batik|main|i386: xenta-common 1.3.3+xentaos2
 batik|main|i386: xenta-mirrors 1.3.4+xentaos2
-batik|main|i386: xenta-themes 1.5.0
+batik|main|i386: xenta-themes 1.5.0+xentaos2
 batik|main|i386: xentasources 1.7.0+xentaos2
 batik|main|i386: xentasystem 8.3.6+xentaos2
 batik|main|amd64: apt-sources-list 2.0.2+xentaos2
@@ -68,7 +68,7 @@ batik|main|amd64: xenta-backgrounds 1.3.1+xentaos2
 batik|main|amd64: xenta-backgrounds-xfce 2.0.1+xentaos2
 batik|main|amd64: xenta-common 1.3.3+xentaos2
 batik|main|amd64: xenta-mirrors 1.3.4+xentaos2
-batik|main|amd64: xenta-themes 1.5.0
+batik|main|amd64: xenta-themes 1.5.0+xentaos2
 batik|main|amd64: xentasources 1.7.0+xentaos2
 batik|main|amd64: xentasystem 8.3.6+xentaos2
 batik|main|source: apt-sources-list 2.0.2+xentaos2
@@ -93,6 +93,6 @@ batik|main|source: xenta-backgrounds 1.3.1+xentaos2
 batik|main|source: xenta-backgrounds-xfce 2.0.1+xentaos2
 batik|main|source: xenta-common 1.3.3+xentaos2
 batik|main|source: xenta-mirrors 1.3.4+xentaos2
-batik|main|source: xenta-themes 1.5.0
+batik|main|source: xenta-themes 1.5.0+xentaos2
 batik|main|source: xentasources 1.7.0+xentaos2
 batik|main|source: xentasystem 8.3.6+xentaos2
