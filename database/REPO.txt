@@ -1,29 +1,29 @@
 * [Main] apt-sources-list
-[Main] apturl
-[Main] base-files
-[Import] bluefish
+* [Main] apturl
+* [Main] base-files
+                                                                                                                               [Import] bluefish
 [Main] desktop-file-utils
-[Import] gbilling-client
-[Import] gbilling-server
-[Import] gcolor3
-[Import] gdebi
-[Import] geany
+                                                                                                                               [Import] gbilling-client
+                                                                                                                               [Import] gbilling-server
+                                                                                                                               [Import] gcolor3
+                                                                                                                               [Import] gdebi
+                                                                                                                               [Import] geany
 [Main] grub2-theme-xenta
-[Import] inkscape
+                                                                                                                               [Import] inkscape
 [Main] libreoffice-style-xenta
 [Main] mdm
 [Main] muffin
 [Main] paketku
-[Import] pinta
+                                                                                                                               [Import] pinta
 [Main] plymouth
 [Main] plymouth-theme-xentaos
 [Main] seed
-[Import] sexy-python
+                                                                                                                               [Import] sexy-python
 [Main] syslinux-themes-xentaos
 [Main] ubiquity
 [Main] ubiquity-slideshow-xenta
 [Main] ubuntu-system-adjustments
-[Import] uget
+                                                                                                                               [Import] uget
 [Main]  xenta-artwork
 [Main]  xenta-artwork-applications
 [Main]  xenta-artwork-cinnamon
@@ -59,7 +59,6 @@
 [Main]  xenta-user-guide
 [Main]  xenta-user-guide-xfce
 [Main]  xenta-welcome-screen
-[Main]  xenta-welcome-screen-cinnamon64bit
 [Main]  xenta-x-icons
 [Main]  xenta-x-theme
 [Main]  xenta-y-theme
