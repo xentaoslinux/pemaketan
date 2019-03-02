@@ -8,7 +8,7 @@ repository/dists
 # repository/repoclean
 # repository/repoindex
 # repository/repolist
-repository/repository.list
+repository/repository.txt
 # No Index Project Packages Section Import
 #-----------------------------------------------
 packages/import/*/*/*.build
