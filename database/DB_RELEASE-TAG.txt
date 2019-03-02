@@ -20,3 +20,8 @@ xenta-software-center
 xentasources
 xentasystem
 xenta-themes
+xenta-user-guide
+xenta-welcome-screen
+xenta-x-icons
+xenta-x-theme
+xenta-y-theme
