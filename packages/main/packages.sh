@@ -12,7 +12,7 @@
 # You should have received a copy of the GNU General Public License
 # along with this program.  If not, see <http://www.gnu.org/licenses/>
 
-package="paketku"
+package="ganti-dengan-nama-repo"
 figlet $package
 mkdir $package
 cd $package
