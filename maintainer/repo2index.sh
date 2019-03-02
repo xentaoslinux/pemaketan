@@ -75,6 +75,7 @@ reprepro -Vb . -C import include       batik /home/$(whoami)/XentaOS/pemaketan/p
 
 # Membuat Index Section Main Xenta OS Repository
 reprepro -Vb . -C main includedeb       batik /home/$(whoami)/XentaOS/pemaketan/packages/main/a/apt-sources-list/*.deb
+reprepro -Vb . -C main includedeb       batik /home/$(whoami)/XentaOS/pemaketan/packages/main/a/apturl/*.deb
 # reprepro -Vb . -C main includedeb       batik /home/$(whoami)/XentaOS/pemaketan/packages/main/b/**/*.deb
 reprepro -Vb . -C main includedeb       batik /home/$(whoami)/XentaOS/pemaketan/packages/main/b/base-files/*.deb
 # reprepro -Vb . -C main includedeb       batik /home/$(whoami)/XentaOS/pemaketan/packages/main/c/**/*.deb
@@ -140,6 +141,7 @@ reprepro -Vb . -C main includedeb       batik /home/$(whoami)/XentaOS/pemaketan/
 # reprepro -Vb . -C main includedeb       batik /home/$(whoami)/XentaOS/pemaketan/packages/main/y/**/*.deb
 # reprepro -Vb . -C main includedeb       batik /home/$(whoami)/XentaOS/pemaketan/packages/main/z/**/*.deb
 reprepro -Vb . -C main include       batik /home/$(whoami)/XentaOS/pemaketan/packages/main/a/apt-sources-list/*.changes
+reprepro -Vb . -C main include       batik /home/$(whoami)/XentaOS/pemaketan/packages/main/a/apturl/*.changes
 # reprepro -Vb . -C main include       batik /home/$(whoami)/XentaOS/pemaketan/packages/main/b/**/*.changes
 reprepro -Vb . -C main include       batik /home/$(whoami)/XentaOS/pemaketan/packages/main/b/base-files/*.changes
 # reprepro -Vb . -C main include       batik /home/$(whoami)/XentaOS/pemaketan/packages/main/c/**/*.changes

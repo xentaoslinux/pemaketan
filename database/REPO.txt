@@ -1,6 +1,5 @@
 * [Main] apt-sources-list
 [Main] apturl
-[Main] apturl-common
 [Main] base-files
 [Import] bluefish
 [Main] desktop-file-utils

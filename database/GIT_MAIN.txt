@@ -1,6 +1,5 @@
 # Section Main Repository
 git@github.com:xentaoslinux/apt-sources-list.git  
-git@github.com:xentaoslinux/apturl-common.git  
 git@github.com:xentaoslinux/apturl.git  
 git@github.com:xentaoslinux/base-files.git  
 git@github.com:xentaoslinux/desktop-file-utils.git
