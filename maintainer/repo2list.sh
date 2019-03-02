@@ -15,4 +15,4 @@
 figlet repo2list
 repository=/home/$(whoami)/XentaOS/pemaketan/repository
 cd $repository
-reprepro list batik > ../database/PACKAGES.list
+reprepro list batik > ../database/PACKAGES.txt
