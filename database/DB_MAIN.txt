@@ -47,7 +47,6 @@ main/x/xenta-themes
 main/x/xenta-themes-gtk3
 main/x/xenta-translations
 main/x/xenta-user-guide
-main/x/xenta-user-guide-xfce
 main/x/xenta-welcome-screen
 main/x/xenta-x-icons
 main/x/xenta-x-theme
