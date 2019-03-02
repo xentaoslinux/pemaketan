@@ -8,3 +8,6 @@ visual-studio-code
 gravit
 steam
 vala-panel
+xampp
+anaconda
+discord
