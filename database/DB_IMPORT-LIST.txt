@@ -1,1 +1,10 @@
-
+atom
+sublime
+kdenlive
+chrome
+wps
+postman
+visual-studio-code
+gravit
+steam
+vala-panel
