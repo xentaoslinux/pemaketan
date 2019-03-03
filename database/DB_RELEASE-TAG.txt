@@ -1,4 +1,13 @@
 apturl
+apt-sources-list
+base-files
+desktop-file-utils
+grub2-themes-xenta
+libreoffice-style-xenta
+mdm
+muffin
+paketku
+plymouth
 xenta-artwork
 xenta-artwork-gnome
 xenta-artwork-xfce
