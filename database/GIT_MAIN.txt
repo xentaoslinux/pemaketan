@@ -30,7 +30,6 @@ git@github.com:xentaoslinux/xenta-common.git
 git@github.com:xentaoslinux/xentadesktop.git
 git@github.com:xentaoslinux/xenta-icons.git
 git@github.com:xentaoslinux/xenta-info.git
-git@github.com:xentaoslinux/xenta-info-xfce.git
 git@github.com:xentaoslinux/xenta-mdm-themes-gdm.git
 git@github.com:xentaoslinux/xenta-mdm-themes.git
 git@github.com:xentaoslinux/xenta-mdm-themes-html.git

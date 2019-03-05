@@ -48,7 +48,6 @@ reprepro -Vb . -C main includedeb       batik /home/$(whoami)/XentaOS/pemaketan/
 reprepro -Vb . -C main includedeb       batik /home/$(whoami)/XentaOS/pemaketan/packages/main/x/xentadesktop/*.deb
 reprepro -Vb . -C main includedeb       batik /home/$(whoami)/XentaOS/pemaketan/packages/main/x/xenta-icons/*.deb
 reprepro -Vb . -C main includedeb       batik /home/$(whoami)/XentaOS/pemaketan/packages/main/x/xenta-info/*.deb
-reprepro -Vb . -C main includedeb       batik /home/$(whoami)/XentaOS/pemaketan/packages/main/x/xenta-info-xfce/*.deb
 reprepro -Vb . -C main includedeb       batik /home/$(whoami)/XentaOS/pemaketan/packages/main/x/xenta-mdm-themes/*.deb
 reprepro -Vb . -C main includedeb       batik /home/$(whoami)/XentaOS/pemaketan/packages/main/x/xenta-mdm-themes-gdm/*.deb
 reprepro -Vb . -C main includedeb       batik /home/$(whoami)/XentaOS/pemaketan/packages/main/x/xenta-mdm-themes-html/*.deb
@@ -101,7 +100,6 @@ reprepro -Vb . -C main include          batik /home/$(whoami)/XentaOS/pemaketan/
 reprepro -Vb . -C main include          batik /home/$(whoami)/XentaOS/pemaketan/packages/main/x/xentadesktop/*.changes
 reprepro -Vb . -C main include          batik /home/$(whoami)/XentaOS/pemaketan/packages/main/x/xenta-icons/*.changes
 reprepro -Vb . -C main include          batik /home/$(whoami)/XentaOS/pemaketan/packages/main/x/xenta-info/*.changes
-reprepro -Vb . -C main include          batik /home/$(whoami)/XentaOS/pemaketan/packages/main/x/xenta-info-xfce/*.changes
 reprepro -Vb . -C main include          batik /home/$(whoami)/XentaOS/pemaketan/packages/main/x/xenta-mdm-themes/*.changes
 reprepro -Vb . -C main include          batik /home/$(whoami)/XentaOS/pemaketan/packages/main/x/xenta-mdm-themes-gdm/*.changes
 reprepro -Vb . -C main include          batik /home/$(whoami)/XentaOS/pemaketan/packages/main/x/xenta-mdm-themes-html/*.changes
