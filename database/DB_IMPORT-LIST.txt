@@ -11,3 +11,5 @@ vala-panel
 xampp
 anaconda
 discord
+sk1
+
