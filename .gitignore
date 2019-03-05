@@ -90,8 +90,7 @@ packages/main/x/xenta-info-xfce
 packages/main/x/xenta-mdm-themes
 packages/main/x/xenta-mdm-themes-gdm
 packages/main/x/xenta-mdm-themes-html
-packages/main/x/xenta-meta-core
-packages/main/x/xenta-meta-xfce
+packages/main/x/xenta-meta
 packages/main/x/xenta-mirrors
 packages/main/x/xentaos-keyring
 packages/main/x/xenta-psdthumbnailer

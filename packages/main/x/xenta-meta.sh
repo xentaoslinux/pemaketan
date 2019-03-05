@@ -12,7 +12,7 @@
 # You should have received a copy of the GNU General Public License
 # along with this program.  If not, see <http://www.gnu.org/licenses/>
 
-package="xenta-meta-core"
+package="xenta-meta"
 figlet $package
 mkdir $package
 cd $package
