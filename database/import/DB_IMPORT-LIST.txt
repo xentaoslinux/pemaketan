@@ -12,4 +12,4 @@ xampp
 anaconda
 discord
 sk1
-
+vctr
