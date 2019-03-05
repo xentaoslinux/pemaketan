@@ -27,6 +27,7 @@ import/p/pycharm
 import/q/  
 import/r/  
 import/s/steam
+import/s/sk1
 import/t/teamviewer
 import/u/uget
 import/v/visual-studio-code
