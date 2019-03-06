@@ -148,3 +148,6 @@ batik|main|source: xentaremaster 2.3.4+xentaos2
 batik|main|source: xentascreenfetch 3.7.3+xentaos2
 batik|main|source: xentasources 1.7.0+xentaos2
 batik|main|source: xentasystem 8.3.6+xentaos2
+batik|import|i386: python-sk1 2.0rc3
+batik|import|amd64: atom 1.34.0
+batik|import|amd64: python-sk1 2.0rc3
