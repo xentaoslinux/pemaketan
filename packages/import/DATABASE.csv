@@ -1,33 +1,7 @@
 dir,paket,status,version
-a,alva,,
-a,anaconda,,
-a,android-studio,,
 a,atom,add,1.34.0
-b,bluefish,,
-c,chrome,,
-d,discord,,
-g,gbilling-client  ,,
-g,gbilling-server  ,,
-g,gcolor3,,
-g,geany,,
-g,google-chrome,,
-g,gravit,,
-i,inkscape,,
-k,kdenlive,,
-p,pinta,,
-p,postman,,
-p,pycharm,,
+o,opera-stable,add,58.0.3135.79
 s,sk1,add,2.0rc3
-s,steam,,
-s,steam,,
-s,sublime,,
-t,teamviewer,,
-u,uget,,
-v,vala-panel,,
-v,vctr,,
-v,virtualbox,,
-v,visual-studio-code,,
 w,wps-office,add,10.1.0.6757
-x,xampp,,
-x,xtreme-download-manager,,
+
 
