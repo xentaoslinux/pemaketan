@@ -17,7 +17,7 @@ packages/import/*/*/*.deb
 packages/import/*/*/*.dsc
 packages/import/*/*/*.tar.xz
 packages/temp
-#packages/import/a/
+packages/import/a/atom
 packages/import/b/bluefish
 #packages/import/c/
 #packages/import/d/
@@ -38,7 +38,7 @@ packages/import/i/inkscape
 packages/import/p/pinta
 #packages/import/q/
 #packages/import/r/
-#packages/import/s/
+packages/import/s/sk1
 #packages/import/t/
 packages/import/u/uget
 #packages/import/v/

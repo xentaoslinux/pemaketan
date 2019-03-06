@@ -121,4 +121,9 @@ reprepro -Vb . -C main include          batik /home/$(whoami)/XentaOS/pemaketan/
 reprepro -Vb . -C main include          batik /home/$(whoami)/XentaOS/pemaketan/packages/main/x/xenta-x-icons/*.changes
 reprepro -Vb . -C main include          batik /home/$(whoami)/XentaOS/pemaketan/packages/main/x/xenta-x-theme/*.changes
 reprepro -Vb . -C main include          batik /home/$(whoami)/XentaOS/pemaketan/packages/main/x/xenta-y-theme/*.changes
+
+# Repository Section Import
+reprepro -Vb . -C import includedeb       batik /home/$(whoami)/XentaOS/pemaketan/packages/import/a/atom/*.deb
+reprepro -Vb . -C import includedeb       batik /home/$(whoami)/XentaOS/pemaketan/packages/import/s/sk1/*.deb
 reprepro clearvanished
+
