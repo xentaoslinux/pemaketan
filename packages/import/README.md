@@ -11,3 +11,4 @@ sebagai contoh paket alldeb
 **Notes**  
 [DATABASE.csv](./DATABASE.csv) Database Repository Section Import.  
 [IMPORT.csv](./IMPORT.csv) Request paket Database Repository Section Import.  
+[INDEX](./INDEX) Script Auto Repository Section Import.  
