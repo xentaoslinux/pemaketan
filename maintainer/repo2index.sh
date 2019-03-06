@@ -125,5 +125,6 @@ reprepro -Vb . -C main include          batik /home/$(whoami)/XentaOS/pemaketan/
 # Repository Section Import
 reprepro -Vb . -C import includedeb       batik /home/$(whoami)/XentaOS/pemaketan/packages/import/a/atom/*.deb
 reprepro -Vb . -C import includedeb       batik /home/$(whoami)/XentaOS/pemaketan/packages/import/s/sk1/*.deb
+reprepro -Vb . -C import includedeb       batik /home/$(whoami)/XentaOS/pemaketan/packages/import/w/wps-office/*.deb
 reprepro clearvanished
 
