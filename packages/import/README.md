@@ -9,5 +9,5 @@ sebagai contoh paket alldeb
 > **!** Paket disini Bebas Licensinya. 
 
 **Notes**  
-Berkas [DATABASE.csv](./DATABASE.csv) Berisi Database dari REpository Section Import yang sudah tersedia.  
-Berkas IMPORT.csv Berisi Paket yang akan dimasukan 
+[DATABASE.csv](./DATABASE.csv) Database Repository Section Import.  
+[IMPORT.csv](./IMPORT.csv) Request paket Database Repository Section Import.  
