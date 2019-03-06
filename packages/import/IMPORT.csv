@@ -2,7 +2,7 @@ dir,paket,status,version
 a,alva,,
 a,anaconda,,
 a,android-studio,add,
-b,bluefish,add,
+b,bluefish,apt,
 c,chromium-browser,apt,
 d,discord,,
 g,gbilling-client  ,add,
