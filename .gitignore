@@ -17,7 +17,9 @@ packages/import/*/*/*.deb
 packages/import/*/*/*.dsc
 packages/import/*/*/*.tar.xz
 packages/temp
+packages/import/a/*.deb
 packages/import/a/atom
+packages/import/a/alva
 packages/import/b/bluefish
 #packages/import/c/
 #packages/import/d/
