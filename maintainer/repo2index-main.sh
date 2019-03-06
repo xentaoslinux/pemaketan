@@ -12,7 +12,7 @@
 # You should have received a copy of the GNU General Public License
 # along with this program.  If not, see <http://www.gnu.org/licenses/>
 
-figlet repo2index
+figlet repo2index-main
 repository=/home/$(whoami)/XentaOS/pemaketan/repository
 cd $repository
 
@@ -121,10 +121,5 @@ reprepro -Vb . -C main include          batik /home/$(whoami)/XentaOS/pemaketan/
 reprepro -Vb . -C main include          batik /home/$(whoami)/XentaOS/pemaketan/packages/main/x/xenta-x-icons/*.changes
 reprepro -Vb . -C main include          batik /home/$(whoami)/XentaOS/pemaketan/packages/main/x/xenta-x-theme/*.changes
 reprepro -Vb . -C main include          batik /home/$(whoami)/XentaOS/pemaketan/packages/main/x/xenta-y-theme/*.changes
-
-# Repository Section Import
-reprepro -Vb . -C import includedeb       batik /home/$(whoami)/XentaOS/pemaketan/packages/import/a/atom/*.deb
-reprepro -Vb . -C import includedeb       batik /home/$(whoami)/XentaOS/pemaketan/packages/import/s/sk1/*.deb
-reprepro -Vb . -C import includedeb       batik /home/$(whoami)/XentaOS/pemaketan/packages/import/w/wps-office/*.deb
 reprepro clearvanished
 

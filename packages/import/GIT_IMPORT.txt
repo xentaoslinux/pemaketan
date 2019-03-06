@@ -3,8 +3,8 @@ git@github.com:xentaoslinux/android-studio.git
 git@github.com:xentaoslinux/alva.git
 git@github.com:xentaoslinux/atom.git
 git@github.com:xentaoslinux/bluefish.git
-git@github.com:xentaos/gbilling-client.git  
-git@github.com:xentaos/gbilling-server.git  
+git@github.com:xentaoslinux/gbilling-client.git  
+git@github.com:xentaoslinux/gbilling-server.git  
 git@github.com:xentaoslinux/uget.git
 git@github.com:xentaoslinux/google-chrome.git
 git@github.com:xentaoslinux/gcolor3.git
