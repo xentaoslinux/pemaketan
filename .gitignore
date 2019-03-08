@@ -198,7 +198,7 @@ packages/upstream/*/*/*.tar.xz
 #packages/upstream/e/
 #packages/upstream/f/
 #packages/upstream/g/
-#packages/upstream/g/
+packages/upstream/g/gnome-screenshot
 #packages/upstream/g/
 #packages/upstream/h/
 #packages/upstream/i/

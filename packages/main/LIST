@@ -12,7 +12,7 @@
 # You should have received a copy of the GNU General Public License
 # along with this program.  If not, see <http://www.gnu.org/licenses/>
 
-figlet repo2list
-repository=/home/$(whoami)/XentaOS/pemaketan/repository
+figlet LIST
+repository=/home/project/pemaketan/repository
 cd $repository
-reprepro list batik > ../packages/main/INDEX_PACKAGES.txt
+reprepro list batik > PAKET.repository

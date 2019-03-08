@@ -13,15 +13,15 @@
 # along with this program.  If not, see <http://www.gnu.org/licenses/>
 
 figlet INDEX IMPORT
-repository=/home/$(whoami)/XentaOS/pemaketan/repository
+repository=/home/project/pemaketan/repository
 cd $repository
 
 # Repository Section Import
-reprepro -Vb . -C import includedeb       batik /home/$(whoami)/XentaOS/pemaketan/packages/import/a/atom/*.deb
-reprepro -Vb . -C import includedeb       batik /home/$(whoami)/XentaOS/pemaketan/packages/import/a/alva/*.deb
-reprepro -Vb . -C import includedeb       batik /home/$(whoami)/XentaOS/pemaketan/packages/import/g/google-chrome-stable/*.deb
-reprepro -Vb . -C import includedeb       batik /home/$(whoami)/XentaOS/pemaketan/packages/import/s/sk1/*.deb
-reprepro -Vb . -C import includedeb       batik /home/$(whoami)/XentaOS/pemaketan/packages/import/o/opera-stable/*.deb
-reprepro -Vb . -C import includedeb       batik /home/$(whoami)/XentaOS/pemaketan/packages/import/w/wps-office/*.deb
+reprepro -Vb . -C import includedeb       batik /home/project/pemaketan/packages/import/a/atom/*.deb
+reprepro -Vb . -C import includedeb       batik /home/project/pemaketan/packages/import/a/alva/*.deb
+reprepro -Vb . -C import includedeb       batik /home/project/pemaketan/packages/import/g/google-chrome-stable/*.deb
+reprepro -Vb . -C import includedeb       batik /home/project/pemaketan/packages/import/s/sk1/*.deb
+reprepro -Vb . -C import includedeb       batik /home/project/pemaketan/packages/import/o/opera-stable/*.deb
+reprepro -Vb . -C import includedeb       batik /home/project/pemaketan/packages/import/w/wps-office/*.deb
 reprepro clearvanished
 

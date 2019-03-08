@@ -12,7 +12,7 @@
 # You should have received a copy of the GNU General Public License
 # along with this program.  If not, see <http://www.gnu.org/licenses/>
 
-package="ganti-dengan-nama-repo"
+package="gnome-screenshot"
 figlet $package
 mkdir $package
 cd $package
