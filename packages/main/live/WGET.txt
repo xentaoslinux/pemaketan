@@ -1,0 +1,8 @@
+http://live.linuxmint.com/pool/main/g/grub2/grub-efi-amd64_2.02~beta2-36ubuntu3.2_amd64.deb
+http://live.linuxmint.com/pool/main/g/grub2/grub-efi_2.02~beta2-36ubuntu3.2_amd64.deb
+http://live.linuxmint.com/pool/main/g/grub2/grub-efi-amd64-bin_2.02~beta2-36ubuntu3.2_amd64.deb
+http://live.linuxmint.com/pool/main/g/grub2-signed/grub-efi-amd64-signed_1.66.2+2.02~beta2-36ubuntu3.2_amd64.deb
+http://live.linuxmint.com/pool/main/m/mokutil/mokutil_0.3.0-0ubuntu3_amd64.deb
+http://live.linuxmint.com/pool/main/s/secureboot-db/secureboot-db_1.1_amd64.deb
+http://live.linuxmint.com/pool/main/s/shim/shim_0.8-0ubuntu2_amd64.deb
+http://live.linuxmint.com/pool/main/s/shim-signed/shim-signed_1.19~16.04.1+0.8-0ubuntu2_amd64.deb

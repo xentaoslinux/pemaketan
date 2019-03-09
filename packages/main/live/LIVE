@@ -1,0 +1,2 @@
+#!/usr/bin/env bash
+dpkg-sig -k 959CDDD1 --sign bundler *.deb

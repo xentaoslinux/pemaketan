@@ -12,16 +12,11 @@
 # You should have received a copy of the GNU General Public License
 # along with this program.  If not, see <http://www.gnu.org/licenses/>
 
-figlet INDEX IMPORT
+figlet repo2index-main
 repository=/home/project/pemaketan/repository
 cd $repository
 
-# Repository Section Import
-# reprepro -Vb . -C import includedeb       batik /home/project/pemaketan/packages/import/a/atom/*.deb
-# reprepro -Vb . -C import includedeb       batik /home/project/pemaketan/packages/import/a/alva/*.deb
-# reprepro -Vb . -C import includedeb       batik /home/project/pemaketan/packages/import/g/google-chrome-stable/*.deb
-# reprepro -Vb . -C import includedeb       batik /home/project/pemaketan/packages/import/s/sk1/*.deb
-# reprepro -Vb . -C import includedeb       batik /home/project/pemaketan/packages/import/o/opera-stable/*.deb
-# reprepro -Vb . -C import includedeb       batik /home/project/pemaketan/packages/import/w/wps-office/*.deb
+# Repository Section Main
+reprepro -Vb . -C main includedeb       batik /home/project/pemaketan/packages/main/live/*.deb
 reprepro clearvanished
 
