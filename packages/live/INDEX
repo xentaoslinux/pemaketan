@@ -17,6 +17,6 @@ repository=/home/project/pemaketan/repository
 cd $repository
 
 # Repository Section Main
-reprepro -Vb . -C main includedeb       batik /home/project/pemaketan/packages/main/live/*.deb
+reprepro -Vb . -C main includedeb       batik /home/project/pemaketan/packages/live/*.deb
 reprepro clearvanished
 
