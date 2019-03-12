@@ -25,7 +25,7 @@ cd $repository
 # reprepro -Vb . -C main includedeb       batik /home/project/pemaketan/packages/main/l/libreoffice-style-xenta/*.deb
 # reprepro -Vb . -C main includedeb       batik /home/project/pemaketan/packages/main/m/mdm/*.deb
 # reprepro -Vb . -C main includedeb       batik /home/project/pemaketan/packages/main/m/muffin/*.deb
-reprepro -Vb . -C main includedeb         batik /home/project/pemaketan/packages/main/n/nvidia-prime-applet/*.deb
+# reprepro -Vb . -C main includedeb         batik /home/project/pemaketan/packages/main/n/nvidia-prime-applet/*.deb
 # reprepro -Vb . -C main includedeb       batik /home/project/pemaketan/packages/main/p/paketku/*.deb
 # reprepro -Vb . -C main includedeb       batik /home/project/pemaketan/packages/main/p/plymouth/*.deb
 # reprepro -Vb . -C main includedeb       batik /home/project/pemaketan/packages/main/p/plymouth-theme-xentaos/*.deb
@@ -78,7 +78,7 @@ reprepro -Vb . -C main includedeb         batik /home/project/pemaketan/packages
 # reprepro -Vb . -C main include          batik /home/project/pemaketan/packages/main/l/libreoffice-style-xenta/*.changes
 # reprepro -Vb . -C main include          batik /home/project/pemaketan/packages/main/m/mdm/*.changes
 # reprepro -Vb . -C main include          batik /home/project/pemaketan/packages/main/m/muffin/*.changes
-reprepro -Vb . -C main include          batik /home/project/pemaketan/packages/main/n/nvidia-prime-applet/*.changes
+# reprepro -Vb . -C main include          batik /home/project/pemaketan/packages/main/n/nvidia-prime-applet/*.changes
 # reprepro -Vb . -C main include          batik /home/project/pemaketan/packages/main/p/paketku/*.changes
 # reprepro -Vb . -C main include          batik /home/project/pemaketan/packages/main/p/plymouth/*.changes
 # reprepro -Vb . -C main include          batik /home/project/pemaketan/packages/main/p/plymouth-theme-xentaos/*.changes
@@ -123,8 +123,5 @@ reprepro -Vb . -C main include          batik /home/project/pemaketan/packages/m
 # reprepro -Vb . -C main include          batik /home/project/pemaketan/packages/main/x/xenta-x-icons/*.changes
 # reprepro -Vb . -C main include          batik /home/project/pemaketan/packages/main/x/xenta-x-theme/*.changes
 # reprepro -Vb . -C main include          batik /home/project/pemaketan/packages/main/x/xenta-y-theme/*.changes
-
-
 # reprepro -Vb . -C main includedeb       batik /home/project/pemaketan/packages/main/live/*.deb
 reprepro clearvanished
-
