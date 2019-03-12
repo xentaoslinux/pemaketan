@@ -65,7 +65,7 @@ cd $repository
 # reprepro -Vb . -C main includedeb       batik /home/project/pemaketan/packages/main/x/xenta-themes-gtk3/*.deb
 # reprepro -Vb . -C main includedeb       batik /home/project/pemaketan/packages/main/x/xenta-translations/*.deb
 # reprepro -Vb . -C main includedeb       batik /home/project/pemaketan/packages/main/x/xenta-user-guide/*.deb
-# reprepro -Vb . -C main includedeb       batik /home/project/pemaketan/packages/main/x/xenta-welcome-screen/*.deb
+reprepro -Vb . -C main includedeb       batik /home/project/pemaketan/packages/main/x/xenta-welcome-screen/*.deb
 # reprepro -Vb . -C main includedeb       batik /home/project/pemaketan/packages/main/x/xenta-x-icons/*.deb
 # reprepro -Vb . -C main includedeb       batik /home/project/pemaketan/packages/main/x/xenta-x-theme/*.deb
 # reprepro -Vb . -C main includedeb       batik /home/project/pemaketan/packages/main/x/xenta-y-theme/*.deb
@@ -117,7 +117,7 @@ cd $repository
 # reprepro -Vb . -C main include          batik /home/project/pemaketan/packages/main/x/xenta-themes-gtk3/*.changes
 # reprepro -Vb . -C main include          batik /home/project/pemaketan/packages/main/x/xenta-translations/*.changes
 # reprepro -Vb . -C main include          batik /home/project/pemaketan/packages/main/x/xenta-user-guide/*.changes
-# reprepro -Vb . -C main include          batik /home/project/pemaketan/packages/main/x/xenta-welcome-screen/*.changes
+reprepro -Vb . -C main include          batik /home/project/pemaketan/packages/main/x/xenta-welcome-screen/*.changes
 # reprepro -Vb . -C main include          batik /home/project/pemaketan/packages/main/x/xenta-x-icons/*.changes
 # reprepro -Vb . -C main include          batik /home/project/pemaketan/packages/main/x/xenta-x-theme/*.changes
 # reprepro -Vb . -C main include          batik /home/project/pemaketan/packages/main/x/xenta-y-theme/*.changes
