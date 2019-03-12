@@ -62,10 +62,12 @@ packages/main/a/apt-sources-list
 packages/main/a/apturl
 packages/main/b/base-files
 packages/main/d/desktop-file-utils
+packages/main/d/dropbox
 packages/main/g/grub2-theme-xenta
 packages/main/l/libreoffice-style-xenta
 packages/main/m/mdm
 packages/main/m/muffin
+packages/main/n/nvidia-prime-applet
 packages/main/p/paketku
 packages/main/p/plymouth
 packages/main/p/plymouth-theme-xentaos
