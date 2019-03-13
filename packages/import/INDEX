@@ -20,6 +20,7 @@ cd $repository
 # reprepro -Vb . -C import includedeb       batik /home/project/pemaketan/packages/import/a/atom/*.deb
 # reprepro -Vb . -C import includedeb       batik /home/project/pemaketan/packages/import/a/alva/*.deb
 # reprepro -Vb . -C import includedeb       batik /home/project/pemaketan/packages/import/g/google-chrome-stable/*.deb
+reprepro -Vb . -C import includedeb       batik /home/project/pemaketan/packages/import/i/inkscape/*.deb
 # reprepro -Vb . -C import includedeb       batik /home/project/pemaketan/packages/import/n/nvidia-graphics-drivers/*.deb
 # reprepro -Vb . -C import includedeb       batik /home/project/pemaketan/packages/import/n/nvidia-settings/*.deb
 # reprepro -Vb . -C import includedeb       batik /home/project/pemaketan/packages/import/s/sk1/*.deb
