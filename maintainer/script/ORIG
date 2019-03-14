@@ -1,0 +1,5 @@
+#!/bin/bash
+dh_make --createorig
+cd debian 
+rm *.ex
+rm *.EX

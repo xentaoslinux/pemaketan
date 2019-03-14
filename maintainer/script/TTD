@@ -1,0 +1,4 @@
+tambahkan baris ini di .bashrc
+xmodmap -e 'add mod3 = Scroll_Lock'
+export DEBFULLNAME="Dindin Hernawan (Xenta OS)"
+export DEBEMAIL="root@dev.xentaos.org"

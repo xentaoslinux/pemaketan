@@ -1,0 +1,194 @@
+#!/bin/bash
+########################################################################
+# XENTA BUILDER
+# AUTHOR    : XENTA OS
+# LICENSE   : GNU GPL 3.0
+# WEB       : http://www.xentaos.org/
+########################################################################
+PROJECT_HOME=$HOME/XENTAOS/PEMAKETAN/
+WHO=$(whoami)
+OS="Xenta OS"
+DIR_SERVER=$HOME/XENTAOS/PEMAKETAN/SERVER/
+DIR_CLIENT=$HOME/XENTAOS/PEMAKETAN/CLIENT/
+DIR_DEB=$HOME/XENTAOS/PEMAKETAN/DEB/
+figlet $OS
+echo " Script Xenta Builder by $OS "
+cd $PROJECT_HOME
+mkdir SERVER CLIENT DEB
+cd $DIR_SERVER
+mkdir -p main/{a,b,c,d,e,f,g,h,i,j,k,l,m,n,o,p,q,r,s,t,u,v,w,x,y,z}
+mkdir -p upstream/{a,b,c,d,e,f,g,h,i,j,k,l,m,n,o,p,q,r,s,t,u,v,w,x,y,z}
+mkdir -p resticted/{a,b,c,d,e,f,g,h,i,j,k,l,m,n,o,p,q,r,s,t,u,v,w,x,y,z}
+mkdir -p import/{a,b,c,d,e,f,g,h,i,j,k,l,m,n,o,p,q,r,s,t,u,v,w,x,y,z}
+mkdir -p import-resticted/{a,b,c,d,e,f,g,h,i,j,k,l,m,n,o,p,q,r,s,t,u,v,w,x,y,z}
+mkdir -p queen/{a,b,c,d,e,f,g,h,i,j,k,l,m,n,o,p,q,r,s,t,u,v,w,x,y,z}
+cat > sections << "EOF"
+main                : Repositori utama-required pada sistem operasi Xenta OS. Berisi paket paket    
+                      utama sebagai base dari sistem operasi. 
+                      ! Didukung & Dikelola oleh Pengembang Xenta OS.
+                      ! Paket disini Bebas Licensinya.
+
+upstream            : Repositori upstream pada sistem operasi Xenta OS. Berisi paket paket    
+                      utama penting sebagai base dari sistem operasi. Paket disini datang dari 
+                      upstream Xenta OS (Linux Mint) yang kami patch, modifikasi dan di paketkan ulang.
+                      ! Didukung & Dikelola oleh Pengembang Xenta OS.
+                      ! Paket disini Bebas Licensinya.
+
+restricted          : Repositori utama-tambahan pada sistem operasi Xenta OS. Berisi paket paket    
+                      utama-tambahan sebagai base dari sistem operasi.
+                      Tidak Didukung oleh Pengembang Xenta OS. Paket disini di kelola oleh 
+                      Pengembang Pihak Ke-3 dari Xenta OS dan Pengambang Xenta OS hanya 
+                      membuatkan paket saja untuk keyamanan pengguna.
+                      ! Tidak Didukung & Dikelola oleh Pengembang Pihak-3 Xenta OS.
+                      ! Paket disini Terbatas dan Tidak Bebas Licensinya.
+ 
+import              : Repositori tambahan bebas pada sistem operasi Xenta OS. Berisi paket aplikasi aplikasi 
+                      yang dikembangkan oleh Pihak Ke-3 dari Xenta OS. Disini Paketnya Kami Kumpulkan
+                      dari Berbagai Sumber pengembang lokal maupun internasional kami buatkan paketnya
+                      jika memenuhi persyaratan Bebas Licensinya & Kode Sumber Terbuka.
+                      Paket disini kebanyakan dari pengembang lokal indonesia sebagai contoh paket alldeb
+                      ! Didukung Terbatas & Dikelola oleh Pengembang Xenta OS.
+                      ! Paket disini Bebas Licensinya.
+                        
+import-restricted   : Repositori tambahan tidak-bebas pada sistem operasi Xenta OS. Berisi paket aplikasi aplikasi 
+                      yang dikembangkan oleh Pihak Ke-3 dari Xenta OS. Disini Paketnya Kami Kumpulkan
+                      dari Berbagai Sumber pengembang lokal maupun internasional kami kumpulkan paket debiannya.
+                      tidak memenuhi persyaratan Bebas Licensinya & Kode Sumber Terbuka.
+                      Paket disini sudah dipaketkan oleh pengembang Pihak Ke 3.
+                      Paket tidak Bebas & Terbatas Licensinya. sebagai contoh paket temaviewer
+                      ! Tidak Didukung & Tidak Dikelola oleh Pengembang Xenta OS. 
+                        Hanya Menyediakan Paket Jadi (Paket .deb) dari
+                        Pihak Ke 3 ke repositori xenta os. Paket nya dikumpulkan dan Berada disini.
+                      ! Paket disini Terbatas dan Tidak Bebas Licensinya.
+
+queen               : Repositori utama-unstable pada sistem operasi Xenta OS. Berisi paket paket    
+                      utama yang tidak stabil sebagai rilis berikutnya untuk base dari sistem operasi.
+                      Secara bawaan section ini tidak di aktifkan untuk pengguna umum.
+                      ! Didukung & Dikelola oleh Pengembang Xenta OS.
+                      ! Paket disini Bebas Licensinya.
+    
+EOF
+cat > prioritas << "EOF"
+required :
+    Paket yang diperlukan untuk berfungsinya sistem (biasanya, ini berarti fungsi dpkg bergantung pada paket ini). 
+    Melepaskan paket yang diperlukan dapat menyebabkan   sistem Anda menjadi rusak total dan Anda mungkin bahkan tidak
+    dapat menggunakan dpkg untuk mengembalikan semuanya, jadi lakukan saja jika Anda tahu apa yang Anda lakukan.
+    Sistem dengan paket yang dibutuhkan hanya menginstal setidaknya memiliki cukup fungsi untuk sysadmin 
+    untuk boot sistem dan menginstal lebih banyak perangkat lunak.
+
+important :
+    Program penting, termasuk yang diharapkan ada di sistem mirip Unix. Jika harapannya adalah orang Unix berpengalaman 
+    yang menemukannya hilang akan mengatakan "Apa yang sedang terjadi, di mana foo?", Itu pasti paket penting. [5] Paket lain 
+    yang tanpanya sistem tidak berjalan dengan baik atau dapat digunakan juga harus memiliki prioritas penting. Ini tidak 
+    termasuk Emacs, X Window System, TeX atau aplikasi besar lainnya. Paket-paket penting hanya sebagian kecil dari 
+    alat yang biasanya diharapkan dan dibutuhkan.
+
+standard :
+    Paket ini menyediakan sistem mode karakter yang cukup kecil namun tidak terbatas. Inilah yang akan diinstal secara 
+    default jika pengguna tidak memilih yang lain. Ini tidak termasuk banyak aplikasi besar. Tidak ada dua paket yang 
+    keduanya memiliki prioritas standar atau lebih tinggi yang bisa saling bertentangan satu sama lain.
+
+optional :
+    Ini adalah prioritas default untuk sebagian besar arsip. Kecuali sebuah paket harus diinstal secara default pada sistem 
+    Debian standar, harus ada prioritas opsional. Paket dengan prioritas opsional mungkin bertentangan satu sama lain.
+EOF
+cat > script << "EOF" 
+#!/bin/bash
+#Perintah untuk membuat tempaltes paket debian 
+dh_make --createorig
+#Perintah untuk membuat tempaltes paket debian 
+dpkg-source --commit
+# perintah untuk membuat paket
+debuild -us -uc
+EOF
+cat > control << "EOF"
+
+EOF
+cd $DIR_CLIENT
+mkdir conf
+cd conf
+cat > distributions << "EOF"
+Origin: xentaos
+Label: xentaos
+Codename: arok
+Suite: xenial
+Components: main upstream resticted import import-resticted queen contrib non-free
+Architectures: i386 amd64
+Version: 1.3
+Description: Xenta OS 1.3 LTS Repository
+SignWith: 959CDDD1
+EOF
+cat > public-key.gpg << "EOF"
+-----BEGIN PGP PUBLIC KEY BLOCK-----
+Version: GnuPG v1
+
+mI0EWXoVKQEEAMPjbFd+JBN3npbrIYRtUXrpfBAxA4J+1fAIcxZIkTYVesH6vYKt
+WCXQGX08ElPVJEcAKxpWsYe87xE52Yb9RIv2JtbpBVOzVWhU+azm13orayH8dzC8
+q+zO4O9ci1TyTmOyuiwy3bndx5KMGqx3lBdCNhYcKAtvQRNx6IojYB7FABEBAAG0
+MURpbmRpbiBIZXJuYXdhbiAoWGVudGEgT1MpIDxyb290QGRldi54ZW50YW9zLm9y
+Zz6IuAQTAQIAIgUCWXoVKQIbAwYLCQgHAwIGFQgCCQoLBBYCAwECHgECF4AACgkQ
+TtsL95Wc3dE1oAP8CXaeU53ozS4eq+enrne8ca5Y+WesbtyKhq4MVbcrCBeOyrVw
+9zYB+w7DyV5jNhnYy86B2n24qX7bCV74xKJgTg/LtRnEF4wGtktbuDn+m7U4crcw
+EsuDHQfWQzF6liTTM5Fgl5yNiVL8c6kh9Bjw2m4hZ4wZt+S3dG2CFx+Upya4jQRZ
+ehUpAQQAzNzTEb1KZh8sC/uL4NKW7txjr1S0S1vDBiPUJ3uuYYogbYeJWZa43z4A
+w4vsUVkZfxQGn1mXKSShlRmea3enU4it7PbMTHmIi1Ambw+jhXIeRRtlCTVzmDwr
+RPBDpAllbjtMZR5taAeB7fcU9zVH7ZaNewOmyjGGj1kQshTByHsAEQEAAYifBBgB
+AgAJBQJZehUpAhsMAAoJEE7bC/eVnN3RwzkD/3Lp379UkXyPuDQQ1Uo7rKIQBR9c
+TvK0sgIrutsTn8bipicua/Fuf7mTabZc3ikEPZZ27AtvNySYtNl6sFX8kmZxQMyf
+r66EfFAlyE1UYhF84XGq3PHB3sH/AH9jCZiLfvArGkysBq5+OJOthNU0eVqFO9x6
+Tf6S49VBJqAcIYcM
+=GsJs
+-----END PGP PUBLIC KEY BLOCK-----
+EOF
+cd $PROJECT_HOME
+cat > BUILD << "EOF"
+#!/bin/bash
+sudo apt-get install --no-install-recommends devscripts build-essential fakeroot debhelper gnupg dh-make lintian ubuntu-dev-tools cdbs devscripts build-essential fakeroot debhelper gnupg dh-make lintian ubuntu-dev-tools cdbs dpkg-sig reprepro figlet 
+sudo dpkg --configure -a
+# NON Aktifkan repository os sejenak
+# bugs karena di repo utama diprioritaskan utma sedangkan paketnya dibawah
+sudo apt-cache policy libc6 libc6-dev locales
+EOF
+cat > PAKET-TTD << "EOF"
+#!/bin/bash
+########################################################################
+# XENTA BUILDER
+# AUTHOR    : XENTA OS
+# LICENSE   : GNU GPL 3.0
+# WEB       : http://www.xentaos.org/
+########################################################################
+PROJECT_HOME=$HOME/XENTAOS/PEMAKETAN/
+WHO=$(whoami)
+OS="Xenta OS"
+DIR_SERVER=$HOME/XENTAOS/PEMAKETAN/SERVER/
+DIR_CLIENT=$HOME/XENTAOS/PEMAKETAN/CLIENT/
+DIR_DEB=$HOME/XENTAOS/PEMAKETAN/DEB/
+figlet $OS
+echo " Script Xenta Builder by $OS "
+echo " Menandatangani Paket .deb "
+cd $DIR_DEB
+dpkg-sig -k 959CDDD1 --sign bundler *.deb
+echo " Sukses Bos $WHO "
+EOF
+cat > PAKET-INDEX << "EOF"
+#!/bin/bash
+########################################################################
+# XENTA BUILDER
+# AUTHOR    : XENTA OS
+# LICENSE   : GNU GPL 3.0
+# WEB       : http://www.xentaos.org/
+########################################################################
+PROJECT_HOME=$HOME/XENTAOS/PEMAKETAN/
+WHO=$(whoami)
+OS="Xenta OS"
+DIR_SERVER=$HOME/XENTAOS/PEMAKETAN/SERVER/
+DIR_CLIENT=$HOME/XENTAOS/PEMAKETAN/CLIENT/
+DIR_DEB=$HOME/XENTAOS/PEMAKETAN/DEB/
+figlet $OS
+echo " Script Xenta Builder by $OS "
+echo " Membuat Index Repository $OS "
+cd $DIR_DEB
+reprepro -b $DIR_CLIENT includedeb arok *.deb
+echo " Sukses Bos $WHO "
+chmod 775 PAKET-*
+EOF

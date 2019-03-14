@@ -1,0 +1,19 @@
+#!/bin/bash
+########################################################################
+# XENTA BUILDER
+# AUTHOR    : XENTA OS
+# LICENSE   : GNU GPL 3.0
+# WEB       : http://www.xentaos.org/
+########################################################################
+PROJECT_HOME=$HOME/XENTAOS/PEMAKETAN/
+WHO=$(whoami)
+OS="Xenta OS"
+DIR_SERVER=$HOME/XENTAOS/PEMAKETAN/SERVER/
+DIR_CLIENT=$HOME/XENTAOS/PEMAKETAN/CLIENT/
+DIR_DEB=$HOME/XENTAOS/PEMAKETAN/DEB/
+figlet $OS
+echo " Script Xenta Builder by $OS "
+echo " Membuat Index Repository $OS "
+cd $DIR_DEB
+reprepro -b $DIR_CLIENT includedeb arok *.deb
+echo " Sukses Bos $WHO "
