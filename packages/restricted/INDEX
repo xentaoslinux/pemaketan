@@ -17,5 +17,6 @@ repository=/home/project/pemaketan/repository
 cd $repository
 
 # Repository Section Restricted
-reprepro -Vb . -C restricted includedeb       batik /home/project/pemaketan/packages/restricted/t/teamviewer/*.deb
+reprepro -Vb . -C restricted includedeb       batik /home/project/pemaketan/packages/restricted/s/spotify-client/*.deb
+# reprepro -Vb . -C restricted includedeb       batik /home/project/pemaketan/packages/restricted/t/teamviewer/*.deb
 reprepro clearvanished
