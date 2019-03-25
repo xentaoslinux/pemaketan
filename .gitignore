@@ -179,7 +179,7 @@ packages/restricted/g/google-chrome-stable/*.deb
 #packages/restricted/q/
 #packages/restricted/r/
 #packages/restricted/s/
-#packages/restricted/t/
+packages/restricted/t/teamviewer
 #packages/restricted/u/
 #packages/restricted/v/
 #packages/restricted/w/
