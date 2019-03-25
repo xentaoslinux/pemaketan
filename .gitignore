@@ -178,7 +178,7 @@ packages/restricted/g/google-chrome-stable/*.deb
 #packages/restricted/p/
 #packages/restricted/q/
 #packages/restricted/r/
-#packages/restricted/s/
+packages/restricted/s/spotify-client
 packages/restricted/t/teamviewer
 #packages/restricted/u/
 #packages/restricted/v/
