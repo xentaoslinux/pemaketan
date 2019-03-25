@@ -1,11 +1,10 @@
 Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
-Upstream-Name: xenta-welcome-screen
-Upstream-Contact: Dindin Hernawan <root@dev.xentaos.org>
-Source: https://github.com/xentaos/xenta-welcome-screen
+Upstream-Name: {packages}
+Upstream-Contact: Dindin Hernawan <dindin_hernawan@yahoo.com>
+Source: https://github.com/xentaoslinux/{packages}
 
-Files: source/*
-Copyright: 2017, Dindin Hernawan
-           2017, Muhammad Andi Puntaro
+Files: /*
+Copyright: 2017-2019, Dindin Hernawan
 License: GPL-3+
  This program is free software: you can redistribute it and/or modify
  it under the terms of the GNU General Public License as published by
@@ -24,7 +23,7 @@ License: GPL-3+
  Public License version 3 can be found in "/usr/share/common-licenses/GPL-3".
 
 Files: debian/*
-Copyright: 2017 Dindin Hernawan
+Copyright: 2017-2019, Dindin Hernawan
 License: GPL-3+
  This program is free software: you can redistribute it and/or modify
  it under the terms of the GNU General Public License as published by

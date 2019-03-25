@@ -1,3 +1,13 @@
+packages (2.0.0) batik; urgency=medium
+
+  * Memperbaharui berkas debian/*
+  * Memperbaharui
+    berkas debian/*
+  * Versi Locantan 
+    dari Paket <packages> <upstreamversion> = <release>
+
+ -- Dindin Hernawan (Xenta OS) <dindin_hernawan@yahoo.com>  Mon, 25 Mar 2019 21:46:19 +0700 
+
 packages (1.3.0) arok; urgency=medium
 
   * Memperbaharui berkas debian/*

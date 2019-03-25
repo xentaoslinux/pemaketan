@@ -7,5 +7,4 @@ debian/files
 debian/debhelper-build-stamp
 
 # Directory Paket
-debian/xenta-x-theme
-#gitpush
+# debian/
