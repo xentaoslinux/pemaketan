@@ -19,7 +19,7 @@ cd $repository
 # Repository Section Import
 # reprepro -Vb . -C import includedeb       batik /home/project/pemaketan/packages/import/a/atom/*.deb
 # reprepro -Vb . -C import includedeb       batik /home/project/pemaketan/packages/import/a/alva/*.deb
-reprepro -Vb . -C import includedeb       batik /home/project/pemaketan/packages/import/b/brackets/*.deb
+# reprepro -Vb . -C import includedeb       batik /home/project/pemaketan/packages/import/b/brackets/*.deb
 # reprepro -Vb . -C import includedeb       batik /home/project/pemaketan/packages/import/g/google-chrome-stable/*.deb
 # reprepro -Vb . -C import includedeb       batik /home/project/pemaketan/packages/import/i/inkscape/*.deb
 # reprepro -Vb . -C import includedeb       batik /home/project/pemaketan/packages/import/n/nvidia-graphics-drivers/*.deb
@@ -27,6 +27,7 @@ reprepro -Vb . -C import includedeb       batik /home/project/pemaketan/packages
 # reprepro -Vb . -C import includedeb       batik /home/project/pemaketan/packages/import/n/nvidia-settings/*.deb
 # reprepro -Vb . -C import includedeb       batik /home/project/pemaketan/packages/import/s/sk1/*.deb
 # reprepro -Vb . -C import includedeb       batik /home/project/pemaketan/packages/import/o/opera-stable/*.deb
+# reprepro -Vb . -C import includedeb       batik /home/project/pemaketan/packages/import/v/vscode/*.deb
 # reprepro -Vb . -C import includedeb       batik /home/project/pemaketan/packages/import/w/wps-office/*.deb
 reprepro clearvanished
 
