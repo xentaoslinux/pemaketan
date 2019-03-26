@@ -21,6 +21,7 @@ packages/import/a/*.deb
 packages/import/a/atom
 packages/import/a/alva
 packages/import/b/bluefish
+packages/import/b/brackets
 #packages/import/c/
 #packages/import/d/
 #packages/import/e/
