@@ -1,0 +1,10 @@
+dir,paket,status,version
+g,grub-efi,add,2.02~beta2-36ubuntu3.2
+g,grub-efi,add,2.02~beta2-36ubuntu3.2
+g,grub-efi-amd64-bin,add,2.02~beta2-36ubuntu3.2
+g,grub-efi-amd64-signed,add,1.66.2+2.02~beta2-36ubuntu3.2
+m,mokutil,add,0.3.0-0ubuntu3
+s,secureboot-db,add,1.1
+s,shim,add,0.8-0ubuntu2
+s,shim-signed,add,1.19~16.04.1+0.8-0ubuntu2
+
