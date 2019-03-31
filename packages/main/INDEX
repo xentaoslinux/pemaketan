@@ -35,7 +35,7 @@ cd $repository
 # reprepro -Vb . -C main includedeb       batik /home/project/pemaketan/packages/main/u/ubiquity-slideshow-xenta/*.deb
 # reprepro -Vb . -C main includedeb       batik /home/project/pemaketan/packages/main/u/ubuntu-system-adjustments/*.deb
 # reprepro -Vb . -C main includedeb       batik /home/project/pemaketan/packages/main/x/xenta-artwork/*.deb
-reprepro -Vb . -C main includedeb       batik /home/project/pemaketan/packages/main/x/xenta-artwork-applications/*.deb
+# reprepro -Vb . -C main includedeb       batik /home/project/pemaketan/packages/main/x/xenta-artwork-applications/*.deb
 # reprepro -Vb . -C main includedeb       batik /home/project/pemaketan/packages/main/x/xenta-artwork-cinnamon/*.deb
 # reprepro -Vb . -C main includedeb       batik /home/project/pemaketan/packages/main/x/xenta-artwork-common/*.deb
 # reprepro -Vb . -C main includedeb       batik /home/project/pemaketan/packages/main/x/xenta-artwork-gnome/*.deb
@@ -67,7 +67,7 @@ reprepro -Vb . -C main includedeb       batik /home/project/pemaketan/packages/m
 # reprepro -Vb . -C main includedeb       batik /home/project/pemaketan/packages/main/x/xenta-translations/*.deb
 # reprepro -Vb . -C main includedeb       batik /home/project/pemaketan/packages/main/x/xenta-user-guide/*.deb
 # reprepro -Vb . -C main includedeb       batik /home/project/pemaketan/packages/main/x/xenta-welcome-screen/*.deb
-# reprepro -Vb . -C main includedeb       batik /home/project/pemaketan/packages/main/x/xenta-x-icons/*.deb
+reprepro -Vb . -C main includedeb       batik /home/project/pemaketan/packages/main/x/xenta-x-icons/*.deb
 # reprepro -Vb . -C main includedeb       batik /home/project/pemaketan/packages/main/x/xenta-x-theme/*.deb
 # reprepro -Vb . -C main includedeb       batik /home/project/pemaketan/packages/main/x/xenta-y-theme/*.deb
 # reprepro -Vb . -C main include          batik /home/project/pemaketan/packages/main/a/apt-sources-list/*.changes
@@ -88,7 +88,7 @@ reprepro -Vb . -C main includedeb       batik /home/project/pemaketan/packages/m
 # reprepro -Vb . -C main include          batik /home/project/pemaketan/packages/main/u/ubiquity-slideshow-xenta/*.changes
 # reprepro -Vb . -C main include          batik /home/project/pemaketan/packages/main/u/ubuntu-system-adjustments/*.changes
 # reprepro -Vb . -C main include          batik /home/project/pemaketan/packages/main/x/xenta-artwork/*.changes
-reprepro -Vb . -C main include          batik /home/project/pemaketan/packages/main/x/xenta-artwork-applications/*.changes
+# reprepro -Vb . -C main include          batik /home/project/pemaketan/packages/main/x/xenta-artwork-applications/*.changes
 # reprepro -Vb . -C main include          batik /home/project/pemaketan/packages/main/x/xenta-artwork-cinnamon/*.changes
 # reprepro -Vb . -C main include          batik /home/project/pemaketan/packages/main/x/xenta-artwork-common/*.changes
 # reprepro -Vb . -C main include          batik /home/project/pemaketan/packages/main/x/xenta-artwork-gnome/*.changes
@@ -119,8 +119,8 @@ reprepro -Vb . -C main include          batik /home/project/pemaketan/packages/m
 # reprepro -Vb . -C main include          batik /home/project/pemaketan/packages/main/x/xenta-themes-gtk3/*.changes
 # reprepro -Vb . -C main include          batik /home/project/pemaketan/packages/main/x/xenta-translations/*.changes
 # reprepro -Vb . -C main include          batik /home/project/pemaketan/packages/main/x/xenta-user-guide/*.changes
-#reprepro -Vb . -C main include          batik /home/project/pemaketan/packages/main/x/xenta-welcome-screen/*.changes
-# reprepro -Vb . -C main include          batik /home/project/pemaketan/packages/main/x/xenta-x-icons/*.changes
+# reprepro -Vb . -C main include          batik /home/project/pemaketan/packages/main/x/xenta-welcome-screen/*.changes
+reprepro -Vb . -C main include          batik /home/project/pemaketan/packages/main/x/xenta-x-icons/*.changes
 # reprepro -Vb . -C main include          batik /home/project/pemaketan/packages/main/x/xenta-x-theme/*.changes
 # reprepro -Vb . -C main include          batik /home/project/pemaketan/packages/main/x/xenta-y-theme/*.changes
 # reprepro -Vb . -C main includedeb       batik /home/project/pemaketan/packages/main/live/*.deb
