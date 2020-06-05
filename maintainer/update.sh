@@ -11,7 +11,7 @@
 # MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
 # GNU General Public License for more details.
 repository=pemaketan
-update="Menambahkan File Wahyu sample"
+update="Menambahkan Repo Xenta XA"
 figlet $repository
 cd ..
 echo "Set Remote $team..."
