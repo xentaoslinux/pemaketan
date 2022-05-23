@@ -9,3 +9,15 @@ UDebComponents: main upstream queen
 Description: Xenta OS 2.0 LTS official repository
 SignWith: 959CDDD1
 Contents: .gz
+
+Origin: xentaos
+Label: xentaos
+Suite: brawijaya
+Codename: brawijaya
+Version: 3
+Architectures: i386 amd64 source
+Components: main upstream import restricted queen
+UDebComponents: main upstream queen
+Description: Xenta OS 3 official repository
+SignWith: 959CDDD1
+Contents: .gz
