@@ -5,12 +5,12 @@
 # LICENSE   : GNU GPL 3.0
 # WEB       : http://www.xentaos.org/
 ########################################################################
-PROJECT_HOME=$HOME/XENTAOS/PEMAKETAN/
+PROJECT_HOME=$HOME/XOPM/pemaketan/
 WHO=$(whoami)
 OS="Xenta OS"
-DIR_SERVER=$HOME/XENTAOS/PEMAKETAN/SERVER/
-DIR_CLIENT=$HOME/XENTAOS/PEMAKETAN/CLIENT/
-DIR_DEB=$HOME/XENTAOS/PEMAKETAN/DEB/
+DIR_SERVER=$HOME/XOPM/pemaketan/SERVER/
+DIR_CLIENT=$HOME/XOPM/pemaketan/CLIENT/
+DIR_DEB=$HOME/XOPM/pemaketan/DEB/
 figlet $OS
 echo " Script Xenta Builder by $OS "
 cd $PROJECT_HOME
